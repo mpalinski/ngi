@@ -1,0 +1,273 @@
+{
+ "name": "ngi",
+ "children": [
+  {
+   "name": "technologies",
+   "children": [
+    {
+     "name": "quantum computing",
+     "children": [
+ {"name": "quantum supremacy", "size": 161.0},
+{"name": "qubit", "size": 81.0},
+{"name": "quantum computing", "size": 51.0}
+     ]
+    },
+    {
+   "name": "AI",
+   "children": [
+
+  {
+    "name": "algorithms",
+    "children": [
+
+{"name": "black box", "size": 38.0},
+{"name": "open ai", "size": 54.0},
+{"name": "AI startup", "size": 64.0},
+{"name": "train data", "size": 64.0},
+{"name": "reinforcment learning", "size": 56.0},
+{"name": "general intelligence", "size": 71.0},
+{"name": "evolutionary computing", "size": 173.0},
+{"name": "massive data", "size": 62.0},
+{"name": "AI research", "size": 37.0},
+{"name": "kill switch", "size": 51.0},
+{"name": "artificial general", "size": 70.0},
+{"name": "voice assistant", "size": 65.0},
+{"name": "digital assistant", "size": 47.0},
+{"name": "facial recognition", "size": 64.0}
+  ]
+  },
+    {
+"name": "VR",
+"children": [
+{"name": "AR experience", "size": 80.0},
+{"name": "mix reality", "size": 56.0},
+{"name": "arkit", "size": 116.0}
+]
+},
+
+{
+  "name":"robots",
+  "children":[
+  {"name": "agile robot", "size": 80.0},
+{"name": "killer robot", "size": 54.0},
+{"name": "soft robot", "size": 51.0},
+{"name": "ros", "size": 56.0},
+{"name": "autonomous weapon", "size": 75.0},
+{"name": "personal robot", "size": 51.0}
+]
+}
+
+
+]
+},
+   {
+   "name": "distributed systems",
+   "children": [
+
+     {
+       "name": "blockchain",
+       "children": [
+
+
+{"name": "decentralised", "size": 85.0},
+{"name": "distributed ledger", "size": 41.0},
+{"name": "smart contract", "size": 85.0},
+{"name": "edge computing", "size": 107.0},
+{"name": "ledger technology", "size": 71.0},
+{"name": "blockchain technology", "size": 72.0},
+{"name": "ethereum", "size": 67.0}
+
+]
+},
+
+{
+  "name": "cryptocurrencies",
+  "children": [
+    {"name": "bitcoin", "size": 75.0},
+    {"name": "cryptocurry market", "size": 154.0},
+    {"name": "ICO", "size": 112.0},
+    {"name": "offer ICO", "size": 155.0},
+    {"name": "digital currency", "size": 73.0},
+    {"name": "virtual currency", "size": 82.0},
+    {"name": "monero", "size": 153.0},
+    {"name": "cryptocurrency trade", "size": 168.0},
+    {"name": "cryptocurrency miner", "size": 167.0}
+  ]
+}
+
+]
+},
+
+   {
+    "name":"5G",
+    "children":[
+    {"name": "massive mimo", "size": 91.0},
+{"name": "5g standard", "size": 93.0},
+{"name": "5g technology", "size": 80.0},
+{"name": "mmwave spectrum", "size": 127.0},
+{"name": "5g network", "size": 96.0},
+{"name": "5g trial", "size": 84.0},
+{"name": "5g service", "size": 95.0}
+]
+   },
+
+    {
+     "name": "IOT",
+     "children": [
+{"name": "wireless charger", "size": 60.0},
+{"name": "smart city", "size": 28.0},
+{"name": "smart speaker", "size": 116.0},
+{"name": "smart lock", "size": 66.0}
+     ]
+    },
+
+
+{
+  "name":"autonomous vehicles",
+  "children":[
+  {"name": "selfdriving truck", "size": 49.0},
+{"name": "electric car", "size": 26.0},
+{"name": "safety driver", "size": 113.0},
+{"name": "driverless vehicle", "size": 29.0},
+{"name": "selfdriving technology", "size": 58.0},
+{"name": "connected car", "size": 33.0},
+{"name": "waymo", "size": 100.0},
+{"name": "uber selfdriving", "size": 89.0},
+{"name": "autonomous vehicle", "size": 29.0}
+]
+},
+
+{
+  "name":"cloud",
+  "children":[
+  {"name": "multicloud", "size": 75.0},
+{"name": "kubernet", "size": 84.0}
+]
+}
+   ]
+  },
+
+
+  {
+   "name": "social issues",
+   "children": [
+    {
+     "name": "Russian influence",
+     "children": [
+{"name": "Russian intelligence", "size": 50.0},
+{"name": "Russian trolls", "size": 150.0},
+{"name": "Russian meddling", "size": 136.0},
+{"name": "Russian propaganda", "size": 120.0},
+{"name": "Russian interference", "size": 125.0}
+     ]
+    },
+     {
+     "name": "social challenges",
+     "children": [
+       {"name": "sex trafficking", "size": 104.0},
+{"name": "sexual harassment", "size": 80.0},
+{"name": "child abuse", "size": 33.0},
+{"name": "sexual assault", "size": 36.0},
+{"name": "gender discrimination", "size": 80.0},
+{"name": "#metoo", "size": 130.0},
+{"name": "sexism", "size": 38.0}
+
+     ]
+    },
+      {
+   "name": "social values",
+   "children": [
+    {"name": "public safety", "size": 34.0},
+{"name": "open internet", "size": 62.0},
+{"name": "consumer protection", "size": 34.0},
+{"name": "health service", "size": 38.0},
+{"name": "public interest", "size": 42.0},
+{"name": "internet freedom", "size": 76.0},
+{"name": "free speech", "size": 28.0}
+  ]
+  },
+
+  {
+   "name": "internet governance",
+   "children": [
+      {"name": "block throttling", "size": 118.0},
+{"name": "fcc commission", "size": 74.0},
+{"name": "net neutrality", "size": 86.0},
+{"name": "broadband provider", "size": 47.0},
+{"name": "fcc chairman", "size": 57.0},
+{"name": "network neutrality", "size": 104.0},
+{"name": "fast lane", "size": 97.0}
+  ]
+  },
+    {
+     "name": "extremist",
+     "children": [
+      {"name": "hate speech", "size": 49.0},
+{"name": "extremist content", "size": 85.0},
+{"name": "white supremacist", "size": 79.0},
+{"name": "discriminating against", "size": 58.0},
+{"name": "hate group", "size": 77.0},
+{"name": "altright", "size": 45.0}
+     ]
+    },
+    {
+      "name": "cybersecurity",
+      "children": [
+        {"name": "Russian hacker", "size":26.0},
+{"name": "cybersecurity firm", "size": 29.0},
+{"name": "spectre", "size": 139.0},
+{"name": "greyball", "size": 70.0},
+{"name": "ransomware attack", "size": 46.0},
+{"name": "wannacry ransomware", "size": 96.0},
+{"name": "notpetya", "size": 121.0},
+{"name": "shadow broker", "size": 32.0},
+{"name": "cyber threat", "size": 27.0},
+{"name": "meltdown", "size": 138.0},
+{"name": "hack tool", "size": 34.0}
+      ]
+    },
+{
+  "name":"control",
+  "children": [
+    {"name": "game addiction", "size": 128.0},
+{"name": "parental control", "size": 95.0},
+{"name": "youtube kid", "size": 114.0}
+  ]
+},
+
+{
+  "name": "online privacy",
+  "children": [
+  {"name": "Cambridge Analytica", "size": 182.0},
+{"name": "data broker", "size": 111.0},
+{"name": "data protection", "size": 37.0},
+{"name": "privacy settings", "size": 82.0},
+{"name": "general data", "size": 77.0},
+{"name": "data breach", "size": 42.0},
+{"name": "personal data", "size": 29.0},
+{"name": "user data", "size": 31.0},
+{"name": "Facebook data", "size": 163.0},
+{"name": "Facebook user", "size": 71.0},
+{"name": "Analytica scandal", "size": 214.0},
+{"name": "personal information", "size": 32.0},
+{"name": "regulation GDPR", "size": 76.0}]
+},
+
+{
+  "name": "digital labor market",
+  "children": [
+  {"name": "social security", "size": 43.0},
+{"name": "unemployment", "size": 43.0},
+{"name": "data scientist", "size": 26.0},
+{"name": "ridehail service", "size": 36.0},
+{"name": "wage growth", "size": 140.0},
+{"name": "job seeker", "size": 85.0},
+{"name": "universal basic [income]", "size": 47.0},
+{"name": "minimum wage", "size": 29.0},
+{"name": "gig economy", "size": 29.0}]
+}
+
+   ]
+  }
+ ]
+}

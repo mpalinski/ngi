@@ -1,0 +1,887 @@
+ var treeData =
+{
+  "name": "social issues",
+  "children": [
+    {
+      "name": "unemployment",
+      "children": [
+        {
+          "name": "artificial intelligence",
+          "size": 1000
+        },
+
+        {
+          "name": "basic income",
+          "size": 1000
+        },
+
+        {
+          "name": "machine learning",
+          "size": 1000
+        },
+
+        {
+          "name": "smart city",
+          "size": 1000
+        },
+        {
+          "name": "young people",
+          "size": 1000
+        },
+        {
+          "name": "income tax",
+          "size": 1000
+        },
+        {
+          "name": "gig economy",
+          "size": 1000
+        },
+        {
+          "name": "autonomous",
+          "size": 1000
+        },
+        {
+          "name": "fake news",
+          "size": 1000
+        },
+        {
+          "name": "digital transformation",
+          "size": 1000
+        }
+      ]
+    },
+    {
+      "name": "disinformation",
+      "children": [
+        {
+          "name": "fake news",
+          "size": 1000
+        },
+        {
+          "name": "presidential election",
+          "size": 1000
+        },
+        {
+          "name": "cambridge analytica",
+          "size": 1000
+        },
+        {
+          "name": "russian governemnt",
+          "size": 1000
+        },
+
+        {
+          "name": "knowledge gap",
+          "size": 1000
+        },
+        {
+          "name": "russian hacker",
+          "size": 1000
+        },
+        {
+          "name": "political ad",
+          "size": 1000
+        },
+        {
+          "name": "fake account",
+          "size": 1000
+        },
+        {
+          "name": "russian interference",
+          "size": 1000
+        },
+        {
+          "name": "fancy bear",
+          "size": 1000
+        }
+      ]
+    },
+    {
+      "name": "personal data",
+      "children": [
+        {
+          "name": "data protection",
+          "size": 1000
+        },
+        {
+          "name": "data breach",
+          "size": 1000
+        },
+        {
+          "name": "cambridge analytica",
+          "size": 1000
+        },
+        {
+          "name": "artificial intelligence",
+          "size": 1000
+        },
+        {
+          "name": "machine learning",
+          "size": 1000
+        },
+        {
+          "name": "telepresence robot",
+          "size": 1000
+        },
+        {
+          "name": "privacy policy",
+          "size": 1000
+        },
+        {
+          "name": "facebook user",
+          "size": 1000
+        },
+        {
+          "name": "identity theft",
+          "size": 1000
+        },
+        {
+          "name": "google assistant",
+          "size": 1000
+        }
+
+
+
+      ]
+    },
+
+
+
+    {
+      "name": "net neutrality",
+      "children": [
+
+        {
+          "name": "open internet",
+          "size": 1000
+        },
+        {
+          "name": "broadband provider",
+          "size": 1000
+        },
+
+
+        {
+          "name": "common carrier",
+          "size": 1000
+        },
+        {
+          "name": "internet freedom",
+          "size": 1000
+        },
+
+
+        {
+          "name": "fast lane",
+          "size": 1000
+        },
+        {
+          "name": "network neutral",
+          "size": 1000
+        },
+        {
+          "name": "fake comment",
+          "size": 1000
+        },
+        {
+          "name": "fcc commission",
+          "size": 1000
+        },
+        {
+          "name": "comment processing",
+          "size": 1000
+        },
+        {
+          "name": "paid priority",
+          "size": 1000
+        }
+
+      ]
+    },
+
+    {
+      "name": "universal basic",
+      "children": [
+        {
+          "name": "artificial intelligence",
+          "size": 1000
+        },
+        {
+          "name": "machine learning",
+          "size": 1000
+        },
+
+        {
+          "name": "robot tax",
+          "size": 1000
+        },
+        {
+          "name": "policy research",
+          "size": 1000
+        },
+
+        {
+          "name": "human labour",
+          "size": 1000
+        },
+        {
+          "name": "ai should",
+          "size": 1000
+        },
+
+        {
+          "name": "fake news",
+          "size": 1000
+        },
+        {
+          "name": "black box",
+          "size": 1000
+        },
+        {
+          "name": "digital divide",
+          "size": 1000
+        },
+        {
+          "name": "ballot box",
+          "size": 1000
+        }
+      ]
+    },
+    {
+      "name": "fake news",
+      "children": [
+        {
+          "name": "artificial intelligence",
+          "size": 1000
+        },
+        {
+          "name": "cambridge analytica",
+          "size": 1000
+        },
+        {
+          "name": "presidential election",
+          "size": 1000
+        },
+        {
+          "name": "news feed",
+          "size": 1000
+        },
+
+
+        {
+          "name": "hate speech",
+          "size": 1000
+        },
+        {
+          "name": "net neutrality",
+          "size": 1000
+        },
+        {
+          "name": "conspiracy theory",
+          "size": 1000
+        },
+        {
+          "name": "media platform",
+          "size": 1000
+        },
+        {
+          "name": "filter bubble",
+          "size": 1000
+        },
+        {
+          "name": "facebook user",
+          "size": 1000
+        }
+
+
+
+      ]
+    },
+
+    {
+      "name": "public interest",
+      "children": [
+        {
+          "name": "net neutrality",
+          "size": 1000
+        },
+        {
+          "name": "artificial intelligence",
+          "size": 1000
+        },
+        {
+          "name": "data protection",
+          "size": 1000
+        },
+
+        {
+          "name": "open internet",
+          "size": 1000
+        },
+        {
+          "name": "personal information",
+          "size": 1000
+        },
+        {
+          "name": "data breach",
+          "size": 1000
+        },
+        {
+          "name": "public safety",
+          "size": 1000
+        },
+        {
+          "name": "fake news",
+          "size": 1000
+        },
+        {
+          "name": "free speech",
+          "size": 1000
+        },
+        {
+          "name": "tech giant",
+          "size": 1000
+        }
+      ]
+    },
+    {
+      "name": "russian influence",
+      "children": [
+        {
+          "name": "us election",
+          "size": 1000
+        },
+        {
+          "name": "fake news",
+          "size": 1000
+        },
+
+        {
+          "name": "cambridge analytica",
+          "size": 1000
+        },
+        {
+          "name": "media platform",
+          "size": 1000
+        },
+        {
+          "name": "political ad",
+          "size": 1000
+        },
+
+        {
+          "name": "net neutrality",
+          "size": 1000
+        },
+        {
+          "name": "internet research",
+          "size": 1000
+        },
+        {
+          "name": "russian hacker",
+          "size": 1000
+        },
+        {
+          "name": "influence campaign",
+          "size": 1000
+        },
+        {
+          "name": "influence operation",
+          "size": 1000
+        }
+      ]
+    },
+
+
+
+    {
+      "name": "cambridge analytica",
+      "children": [
+
+        {
+          "name": "facebook user",
+          "size": 1000
+        },
+        {
+          "name": "user data",
+          "size": 1000
+        },
+        {
+          "name": "trump campaign",
+          "size": 1000
+        },
+        {
+          "name": "fake news",
+          "size": 1000
+        },
+        {
+          "name": "privacy settings",
+          "size": 1000
+        },
+        {
+          "name": "data protection",
+          "size": 1000
+        },
+        {
+          "name": "facebook app",
+          "size": 1000
+        },
+        {
+          "name": "data breach",
+          "size": 1000
+        },
+        {
+          "name": "vote leave",
+          "size": 1000
+        },
+        {
+          "name": "data firm",
+          "size": 1000
+        }
+
+      ]
+    },
+    {
+      "name": "smart city",
+      "children": [
+
+
+        {
+          "name": "autonomous vehicle",
+          "size": 1000
+        },
+        {
+          "name": "ai industry",
+          "size": 1000
+        },
+
+        {
+          "name": "5g network",
+          "size": 1000
+        },
+
+        {
+          "name": "small cell",
+          "size": 1000
+        },
+        {
+          "name": "road technology",
+          "size": 1000
+        },
+        {
+          "name": "machine learning",
+          "size": 1000
+        },
+        {
+          "name": "ensure safety",
+          "size": 1000
+        },
+        {
+          "name": "social problem",
+          "size": 1000
+        },
+        {
+          "name": "policy research",
+          "size": 1000
+        },
+        {
+          "name": "share responsibility",
+          "size": 1000
+        }
+
+
+      ]
+    },
+    {
+      "name": "youtube kid",
+      "children": [
+
+        {
+          "name": "family link",
+          "size": 1000
+        },
+        {
+          "name": "kid app",
+          "size": 1000
+        },
+        {
+          "name": "parent control",
+          "size": 1000
+        },
+        {
+          "name": "fake news",
+          "size": 1000
+        },
+        {
+          "name": "internet safety",
+          "size": 1000
+        },
+
+        {
+          "name": "child protection",
+          "size": 1000
+        },
+        {
+          "name": "online safety",
+          "size": 1000
+        },
+        {
+          "name": "help parent",
+          "size": 1000
+        },
+        {
+          "name": "media firm",
+          "size": 1000
+        },
+        {
+          "name": "gun control",
+          "size": 1000
+        },
+        {
+          "name": "hate crime",
+          "size": 1000
+        }
+
+
+
+      ]
+    },
+
+    {
+      "name": "free speech",
+      "children": [
+
+        {
+          "name": "net neutrality",
+          "size": 1000
+        },
+        {
+          "name": "hate speech",
+          "size": 1000
+        },
+        {
+          "name": "fake news",
+          "size": 1000
+        },
+        {
+          "name": "machine learning",
+          "size": 1000
+        },
+        {
+          "name": "mobile iot",
+          "size": 1000
+        },
+        {
+          "name": "transfer learning",
+          "size": 1000
+        },
+        {
+          "name": "white supremacist",
+          "size": 1000
+        },
+        {
+          "name": "open internet",
+          "size": 1000
+        },
+        {
+          "name": "consumer protection",
+          "size": 1000
+        },
+        {
+          "name": "opensource code",
+          "size": 1000
+        }
+
+
+      ]
+    },
+    {
+      "name": "gig economy",
+      "children": [
+        {
+          "name": "minimum wage",
+          "size": 1000
+        },
+        {
+          "name": "machine learning",
+          "size": 1000
+        },
+        {
+          "name": "gig worker",
+          "size": 1000
+        },
+        {
+          "name": "work environment",
+          "size": 1000
+        },
+        {
+          "name": "worker right",
+          "size": 1000
+        },
+        {
+          "name": "public school",
+          "size": 1000
+        },
+        {
+          "name": "develop policy",
+          "size": 1000
+        },
+        {
+          "name": "employment tribunal",
+          "size": 1000
+        },
+        {
+          "name": "private hire",
+          "size": 1000
+        },
+        {
+          "name": "employment rights",
+          "size": 1000
+        }
+      ]
+    },
+    {
+      "name": "black box",
+      "children": [
+        {
+          "name": "machine learning",
+          "size": 1000
+        },
+        {
+          "name": "artificial intelligence",
+          "size": 1000
+        },
+        {
+          "name": "data protection",
+          "size": 1000
+        },
+        {
+          "name": "cambridge analytica",
+          "size": 1000
+        },
+
+        {
+          "name": "computer vision",
+          "size": 1000
+        },
+        {
+          "name": "ai research",
+          "size": 1000
+        },
+        {
+          "name": "personal data",
+          "size": 1000
+        },
+        {
+          "name": "mental health",
+          "size": 1000
+        },
+        {
+          "name": "fake news",
+          "size": 1000
+        },
+        {
+          "name": "autonomous vehicle",
+          "size": 1000
+        }
+
+      ]
+    },
+
+    {
+      "name": "extremist content",
+      "children": [
+
+        {
+          "name": "hate speech",
+          "size": 1000
+        },
+        {
+          "name": "machine learning",
+          "size": 1000
+        },
+        {
+          "name": "fake news",
+          "size": 1000
+        },
+
+
+        {
+          "name": "terrorist propaganda",
+          "size": 1000
+        },
+
+        {
+          "name": "remove extremist",
+          "size": 1000
+        },
+        {
+          "name": "tech giant",
+          "size": 1000
+        },
+        {
+          "name": "free speech",
+          "size": 1000
+        },
+        {
+          "name": "facial recognition",
+          "size": 1000
+        },
+        {
+          "name": "media platform",
+          "size": 1000
+        },
+        {
+          "name": "hate group",
+          "size": 1000
+        }
+
+      ]
+    },
+
+    {
+      "name": "money launder",
+      "children": [
+
+        {
+          "name": "digital currency",
+          "size": 1000
+        },
+        {
+          "name": "distributed ledger",
+          "size": 1000
+        },
+
+
+        {
+          "name": "machine learning",
+          "size": 1000
+        },
+
+
+        {
+          "name": "bitcoin exchange",
+          "size": 1000
+        },
+        {
+          "name": "cryptocurrency trade",
+          "size": 1000
+        },
+        {
+          "name": "data protection",
+          "size": 1000
+        },
+        {
+          "name": "coin offer",
+          "size": 1000
+        },
+        {
+          "name": "wire fraud",
+          "size": 1000
+        },
+        {
+          "name": "bitcoin price",
+          "size": 1000
+        },
+        {
+          "name": "sex traffick",
+          "size": 1000
+        }
+      ]
+    },
+    {
+      "name": "wage growth",
+      "children": [
+
+        {
+          "name": "artificial intelligence",
+          "size": 1000
+        },
+        {
+          "name": "labor market",
+          "size": 1000
+        },
+        {
+          "name": "iot network",
+          "size": 1000
+        },
+
+
+        {
+          "name": "productivity growth",
+          "size": 1000
+        },
+        {
+          "name": "basic income",
+          "size": 1000
+        },
+        {
+          "name": "1 gbps speed",
+          "size": 1000
+        },
+        {
+          "name": "broadbank network",
+          "size": 1000
+        },
+        {
+          "name": "autonomous machine",
+          "size": 1000
+        },
+        {
+          "name": "gdp growth",
+          "size": 1000
+        },
+        {
+          "name": "federal election",
+          "size": 1000
+        }
+       ]
+      },
+      {
+          "name": "localisation data",
+          "children": [
+
+        {
+          "name": "personal data",
+          "size": 1000
+        },
+        {
+          "name": "data protection",
+          "size": 1000
+        },
+        {
+          "name": "facebook profile",
+          "size": 1000
+        },
+        {
+          "name": "machine learning",
+          "size": 1000
+        },
+        {
+          "name": "data breach",
+          "size": 1000
+        },
+        {
+          "name": "third-party doctrine",
+          "size": 1000
+        },
+        {
+          "name": "media platform",
+          "size": 1000
+        },
+        {
+          "name": "privacy policy",
+          "size": 1000
+        },
+        {
+          "name": "share data",
+          "size": 1000
+        },
+        {
+          "name": "user location",
+          "size": 1000
+        }
+      ]
+    }
+ ]
+}

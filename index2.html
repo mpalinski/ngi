@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>NGI - Engineroom</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:bold,100,200,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <!-- <link href="./static/css/app.ac6d9a72ab5be865046105922fe77b0d.css" rel=stylesheet> -->
+
+    <!-- Custom styles for this template -->
+    <link href="css/demo.css" rel="stylesheet">
+    <link href="css/ngi.css" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+          <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">Menu →</span>
+            <span class="d-none d-lg-block">
+              <!-- <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt=""> -->
+              <img class="img-fluid mb-4" src="img/profile.jpg" alt="">
+            </span>
+          </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#start">Start</a>
+          </li>
+             <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#sources">Sources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#methodology">Methodology</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#topics">Topic identification</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#coocs">Topic co-occurrence</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#vis">Issue mapping</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#technorank">Charts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#case">Case study</a>
+          </li>
+                 <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#wiki">Wikipedia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="start">
+        <div class="my-auto">
+          <h1 class="mb-0">NGI
+            <span class="text-title">ENGINEROOM</span>
+          </h1>
+          <div class="subheading mb-5">Explorations in Next Generation Internet Emerging <div id="typer"></div>
+<!--             <a href="mailto:name@email.com">delab@uw.edu.pl</a>
+ -->          </div>
+           <div class="subheading mb-5">
+          EU Engineroom focuses on identifying and evaluating the key enabling technologies and topics that will underpin the Next Generation Internet in 2025.
+          </div>
+<div class="subheading mb-5">Engineroom’s three key pillars: </div></p>
+
+<div class="row">
+<div class="col-md-8 offset-md-2">
+<!-- <p style="text-align:center;"><img class="img-fluid mb-4" src="img/pillars.jpg" alt=""></p>           -->
+            <!-- <h1 data-scrolj="toggle(.scaleDownIn, .scaleDownOut)"> -->
+        <img class="img-fluid mb-4 zoom-img" src="img/pillars.jpg" alt="">
+          </div></div>
+      </p>
+           <div class="subheading mb-5">
+</p></p>
+Consortium's partners: <br/><br />
+<!-- <h1 data-scroll="toggle(.scaleDownIn, .scaleDownOut)"> -->
+<div class="row">
+<div class="col-md-3"><img class="mb-4 zoom-img logo" src="img/delab.png" alt=""></div><div class="col-md-3"><img class="mb-4 zoom-img logo" src="img/nesta.png" alt=""></div><div class="col-md-3"><img class="mb-4 zoom-img logo" src="img/eurecat.png" alt=""></div>
+</div>
+<!-- </h1> -->
+      </section>
+
+  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="sources">
+        <div class="my-auto">
+          <h2 class="mb-5">Sources</h2>
+          <div class="row">
+            <div class="col-md-7">
+<!-- <svg width="1200" height="1700"></svg>
+<div class="col-md-4 offset-md-4">-->
+<div id="pieChart"></div>
+</div><div id="desc_pie" class="inline align-middle col-md-5">
+    <!-- 1 546 346, 97 446, 65 780 (?) -->
+<!-- <h3><span class="text-ngi" id="trans0">0</span><span class="plus-sign text-ngi">+</span> terms</h3> -->
+<h3> </h3><h4 class="display-width-custom"> </h4><h4 class="display-width-custom"> </h4>
+<!-- <h3><span class="text-ngi">Twelve</span> diverse sources</h3> -->
+
+<h3>Terms: <span class="text-ngi" id="trans0">0</span><span class="plus-sign text-ngi">+</span></h3>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+<script>
+var format = d3.format(",d");
+function isInViewport(element) {
+  var rect = element.getBoundingClientRect();
+  var html = document.documentElement;
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <= (window.innerHeight || html.clientHeight) &&
+    rect.right <= (window.innerWidth || html.clientWidth)
+  );
+}
+var elements = document.querySelectorAll('span[id^="trans"]');
+elements = Array.prototype.slice.call(elements);
+console.log(elements.length);
+elements.forEach(function(element) {
+  window.addEventListener("scroll", isInViewportTrans0);
+});
+
+var transition_custom = function (id, number) {
+    d3.select(id)
+      .transition()
+        .duration(3500)
+        .on("start", function repeat() {
+          d3.active(this)
+              .tween("text", function() {
+                var that = d3.select(this),
+                    i = d3.interpolateNumber(that.text().replace(/,/g, ""), number);
+                return function(t) { that.text(format(i(t))); };
+              })
+            .transition()
+              // .delay(1500)
+              // .on("start", repeat);
+        });
+}
+function isInViewportTrans0 () {
+  if (isInViewport(document.getElementById("trans0"))) {
+    console.log('start transition');
+    transition_custom("#trans0", 1.5*1e6);
+    transition_custom("#trans1", 1e5);
+    transition_custom("#trans2", 65*1e3);
+    // transition_custom("#trans3", 1e6);
+
+
+    }
+}
+
+    </script>
+
+<!-- <h3>nearly
+
+<span class="text-ngi" id="trans1">0</span>
+media articles and
+<span class="text-ngi" id="trans2">0</span> working papers<br />
+</h3>
+<h3><span class="text-ngi">Twelve</span> diverse sources</h3>
+<h3>Analysis period: <span class="text-ngi">two years</span></h3>
+<h4><span class="text-ngi">Multiple gigabytes</span> of raw<br />and processed data</h3>
+<h3><span class="text-ngi" id="trans3">0</span><span class="plus-sign text-ngi">+</span> term combinations</h3> -->
+<h3>Media articles: <span class="text-ngi" id="trans1">0</span><br />Working papers: <span class="text-ngi" id="trans2">0</span></h3>
+<!-- <h3>Term combinations: <span class="text-ngi" id="trans3">0</span><span class="plus-sign text-ngi">+</span></h3> -->
+<h3>Analysis period: <span class="text-ngi">two years</span></h3>
+<h3><span class="text-ngi">Multiple gigabytes</span> of raw<br />and processed data</h3>
+</div>
+</div>
+<script src="d3pie.min.js"></script>
+<script>
+var pie = new d3pie("pieChart", {
+    "header": {
+        "title": {
+            "text": "Data sources",
+            // "fontSize": 30,
+            "color": '#3c3950',
+            "font": "Open Sans",
+        },
+        "subtitle": {
+            "text": "10 Media \& 2 Scientific",
+            "color": "#3c3950",
+            // "fontSize": 18,
+            "font": "Open Sans",
+        },
+        "location": "pie-center",
+        "titleSubtitlePadding": 10
+    },
+    "footer": {
+        "color": "#3c3950",
+        "fontSize": 14,
+        "font": "open sans",
+        "location": "bottom-left"
+    },
+    "size": {
+        "canvasWidth": window.innerWidth*0.55,
+        "canvasHeight": window.innerWidth*0.3,
+        "pieInnerRadius": "86%", // 86
+        "pieOuterRadius": "78%" // 78
+    },
+    "data": {
+        // "sortOrder": "value-desc",
+        "content": [
+
+            {
+                "label": "arXiv",
+                // "value": 31.5,
+                "value": 48847,
+                // "value": 86439,
+                "color": "#645D83"
+            },
+            {
+                "label": "SSRN",
+                // value: 8.8,
+                "value": 14314,
+                // "value": 77043,
+                "color": "#AFA7E8"
+            },
+            {
+                "label": "The Register",
+                // "value": 11.9,
+                "value": 19480,
+                "color": "#143E3E"
+            },
+            {
+                "label": "Gizmodo",
+                // "value": 9.9,
+                "value": 16198,
+                "color": "#297E7E"
+            },
+            {
+                "label": "ZDNet",
+                // "value": 8.6,
+                "value": 14094,
+                "color": "#35A4A4"
+            },
+            {
+                "label": "Venturebeat",
+                // "value": 8.5,
+                "value": 13847,
+                "color": "#3dbdbe"
+            },
+            {
+                "label": "Arstechnica",
+                // "value": 6,
+                "value": 9846,
+                "color": "#45D7D8"
+            },
+            {
+                "label": "The Guardian (Tech)",
+                // "value": 5.6,
+                "value": 9133,
+                "color": "#7DC8C9"
+            },
+            {
+                "label": "Wired",
+                // "value": 5.1,
+                "value": 8303,
+                "color": "#6dcad5"
+            },
+            {
+                "label": "Fastcompany",
+                // "value": 2.7,
+                "value": 4437,
+                "color": "#8DE2E3"
+            },
+            {
+                "label": "IEEE Spectrum",
+                // "value": 1,
+                "value": 1636,
+                "color": "#a5ffff"
+            },
+            {
+                "label": "Gigaom",
+                // "value": 0.5,
+                "value": 472,
+                "color": "#b0eaeb"
+            },
+
+        ]
+    },
+    "labels": {
+        "outer": {
+            "format": "label-percentage1",
+            "pieDistance":30,
+                "font": "Open Sans"
+        },
+        "inner": {
+            "format": "none",
+                "font": "Open Sans"
+        },
+        "mainLabel": {
+            "fontSize": 14,
+                "font": "Open Sans"
+        },
+        "percentage": {
+            "color": "#c24a65",
+            "fontSize": 14,
+            "decimalPlaces": 1,
+                "font": "Open Sans"
+        },
+        "value": {
+            "color": "#c24a65",
+            "fontSize": 14,
+                "font": "Open Sans"
+        },
+        "lines": {
+            "enabled": true,
+            "color": "#3c3950",
+                "font": "Open Sans"
+        },
+        "truncation": {
+            "enabled": true
+        }
+    },
+    "tooltips": {
+        "enabled": true,
+        "fontSize": 14,
+        "type": "placeholder",
+        "string": "{label}: {value}"
+    },
+    "effects": {
+        "pullOutSegmentOnClick": {
+            "effect": "linear",
+            "speed": 400,
+            "size": 8
+        }
+    },
+    "misc": {
+        "colors": {
+            //"segmentStroke": "#fff"
+        }
+    }
+});
+</script>
+
+</section>
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="sources2">
+   <div class="my-auto">
+     <h2><span class="text-ngi">Why ArXiv and SSRN?</span</h2></br></br>
+<h3><li>Lengthy publication process in scientific journals</li>
+<li>Broad coverage:</br>
+SSRN´s eLibrary provides 785,122 research papers from 365,129 researchers across 30 disciplines</li>
+<li> ArXiv provides open access to 1,369,210 e-prints mostly in STEM fields</li></br></h3>
+<h3> SSRN research networks:</h3>
+       <img class="img-fluid mb-4" src="img/ssrnnet.png" alt="">
+
+</div>
+</section>
+
+     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="methodology">
+        <div class="my-auto">
+          <h2 class="mb-5">Methodology</h2>
+
+     <p dir="ltr" id="docs-internal-guid-198b9fd3-1d84-c069-9492-012cadad4f82">
+</p>
+<h3><span class="text-ngi"> Project Goal and General Idea</span></h3>
+<h6>
+<p dir="ltr">
+    <ul>
+
+<li>Major aim is to identify key technologies determining the development of Internet until 2025</li>
+<h3> </h3>
+<li>Strong focus on the relationship between technological areas and social issues</li>
+<h3> </h3>
+
+<li>Data-driven approach with heterogeneous sources of data</li>
+<h3> </h3>
+
+</p>
+</ul>
+<br/>
+</h6>
+<h3><span class="text-ngi">Trend analysis </span></h3>
+<h6>
+<p dir="ltr">
+    <h6>
+   <ul>
+   <li> Analysis based on the frequency of appearances for all unigrams and bigrams in the texts </li>
+   <h3> </h3>
+
+<li>Frequency: number of appearances of every term divided by the number of published articles (for every month and source)</li>
+<h3> </h3>
+
+<li>Weighted average in the case of online news</li>
+<h3> </h3>
+
+<li>Average monthly change in the analised term's frequency is calculated by OLS regressions</li>
+<h3> </h3>
+
+<li>The coefficient reveals the trending unigrams and bigrams</li>
+<h3> </h3>
+
+</p>
+</h6>
+</ul>
+   </p>
+<br/>
+<h3><span class="text-ngi"> Co-occurrence analysis</span> </h3>
+<p dir="ltr">
+    <h6>
+    <ul>
+       <li>Exploring the relationship between topics</li>
+    <h3></h3>
+    <li>Pairs of terms which are mentioned together in media articles</li>
+    <h3> </h3>
+
+<li>The number of articles containing both terms is divided by the number of articles including our previously identified keyword of interest for every media website</li>
+<h3> </h3>
+
+<li>A single index is constructed for all word pairs by weighted average (with the same weights as in the case of frequencies) </li>
+<h3> </h3>
+
+</p>
+<br/>
+</h6>
+
+<h3><span class="text-ngi"> Wikipedia network analysis</span> </h3>
+<p dir="ltr">
+    <h6>
+    <ul>
+       <li>Matching the keywords to Wikipedia articles and parsing their text to extract hyperlinks</li>
+    <h3></h3>
+    <li>Generating the network of hyperlinks that connects the articles with one another</li>
+    <h3> </h3>
+
+<li>Using a community detection algorithm (the Louvain method) to identify clusters of nodes
+</li>
+<h3> </h3>
+</p>
+<br/>
+</h6>
+
+<h3><span class="text-ngi">Main Programming Tools</span> </h3></h5>
+
+ <ul class="list-inline list-icons">
+   <li class="list-inline-item">
+              <i class="devicons devicon-python-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicon-javascript-plain"></i>
+            </li>
+            <li class="list-inline-item">
+ <i class="devicon-d3js-plain"></i>        </li>
+   <li class="list-inline-item">
+              <i class="devicons devicon-vuejs-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicon-jquery-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicon-bootstrap-plain"></i>
+            </li>
+             </ul>
+      </section>
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="topics">
+        <div class="my-auto">
+          <h2 class="mb-5">Topic identification</h2>
+
+ <div class="inline">
+<p dir="ltr">
+    <h6>
+<h5><span class="text-ngi">60</span> most trending NGI related keywords are identified</h5>
+<h5>Grouped into <span class="text-ngi">12 </span>wider areas</h4>
+<h5>The size of the bubble is based on the regression coefficient</h5>
+<h5>Bigger bubble: more robust trend
+</h5>
+</h6>
+<!-- </div>
+</div> <!-- my-auto -->
+
+
+<style>
+
+.node {
+  cursor: pointer;
+}
+
+.node-bubbles:hover {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.node--leaf {
+  fill: #fff;
+}
+
+.label {
+  font: 16px "Open Sans", Open Sans, Arial, sans-serif;
+  text-anchor: middle;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+
+.label,
+.node--root,
+.node--leaf {
+  pointer-events: none;
+}
+
+#p0_title {
+  font-size: 2vw !important;
+}
+
+#p0_subtitle {
+  font-size: 1vw !important;
+}
+
+</style>
+<svg id="svg1" width="960" height="960"></svg>
+<script>
+function bubble_svg(){
+var svg = d3.select("#svg1"),
+    margin_bubbles = 20,
+    diameter = +svg.attr("width"),
+    g = svg.append("g").attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
+
+var color = d3.scaleLinear()
+    .domain([0, 5])
+    .range(['#b0eaeb', '#342C69'])
+    // .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
+    .interpolate(d3.interpolateHcl);
+
+var pack = d3.pack()
+    .size([diameter - margin_bubbles, diameter - margin_bubbles])
+    .padding(2);
+
+d3.json("./data/coefs.json", function(error, root) {
+  if (error) throw error;
+
+  root = d3.hierarchy(root)
+      .sum(function(d) { return d.size; })
+      .sort(function(a, b) { return b.value - a.value; });
+
+  var focus = root,
+      nodes = pack(root).descendants(),
+      view;
+
+  var circle = g.selectAll("circle")
+    .data(nodes)
+    .enter().append("circle")
+.attr("class", function(d) { return d.parent ? d.children ? "node node-bubbles" : "node node-bubbles node--leaf" : "node node-bubbles node--root"; })
+.style("fill", function(d) { return d.children ? color(d.depth) : null; })
+      .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
+
+  var text = g.selectAll("text")
+    .data(nodes)
+    .enter().append("text")
+      .attr("class", "label")
+      .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
+      .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
+      .text(function(d) { return d.data.name; });
+
+  var node = g.selectAll("circle,text");
+
+  svg
+      .style("background", '#fff')//color(-100))
+      .on("click", function() { zoom(root); });
+
+  zoomTo([root.x, root.y, root.r * 2 + margin_bubbles]);
+
+  function zoom(d) {
+    var focus0 = focus; focus = d;
+
+    var transition = d3.transition()
+        .duration(d3.event.altKey ? 7500 : 750)
+        .tween("zoom", function(d) {
+          var i = d3.interpolateZoom(view, [focus.x, focus.y, focus.r * 2 + margin_bubbles]);
+          return function(t) { zoomTo(i(t)); };
+        });
+
+    transition.selectAll("text")
+      .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
+        .style("fill-opacity", function(d) { return d.parent === focus ? 1 : 0; })
+        .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
+        .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
+  }
+
+  function zoomTo(v) {
+    var k = diameter / v[2]; view = v;
+    node.attr("transform", function(d) { return "translate(" + (d.x - v[0]) * k + "," + (d.y - v[1]) * k + ")"; });
+    circle.attr("r", function(d) { return d.r * k; });
+  }
+});
+}
+bubble_svg();
+</script>
+
+      </section>
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="coocs">
+        <div class="my-auto mandala-div">
+          <h2 class="mb-5">Topic co-occurrence</h2>
+<h5>The goal is to <span class="text-ngi"> dive deeper </span>in emerging technologies</h5>
+<h5>Relationship between <span class="text-ngi">social issues and technology</span></h5>
+<h5>These pairs frequently appear together in articles</h5>
+</p>
+<style>
+.mandala {
+    min-height: 1700px;
+}
+.mandala-div {
+    min-height: 2000px;
+}
+
+.node-mandala:hover {
+ stroke: #000;
+ stroke-width: 1.5px;
+}
+
+.node circle {
+  fill: #3dbdbe;
+  stroke: #3c3950;
+        stroke-width: 2px;
+}
+
+.node text {
+  font: 12px "Open Sans", sans-serif;
+}
+
+.node--internal circle {
+  fill: #3dbdbe;
+  stroke: #3c3950;
+        stroke-width: 2px;
+}
+
+.node--internal text {
+  text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: #555;
+  stroke-opacity: 0.4;
+  stroke-width: 1.5px;
+}
+
+</style>
+<svg id="svg2" class="horizontal-tree"></svg>
+
+<script src="./data/keys.json"></script>
+<script>
+// Set the dimensions and margins of the diagram
+function mandala_svg() {
+var margin = {top: 20, right: 90, bottom: 30, left: 90},
+    width = 1000 - margin.left - margin.right,
+    height = 1800 - margin.top - margin.bottom;
+
+// append the svg object to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("#svg2")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height - 600 + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate("
+          + margin.left + "," + margin.top + ")");
+
+var i = 0,
+    duration = 750,
+    root;
+
+// declares a tree layout and assigns the size
+var treemap = d3.tree().size([height, width]);
+
+// Assigns parent, children, height, depth
+root = d3.hierarchy(treeData, function(d) { return d.children; });
+root.x0 = height / 2;
+root.y0 = 0;
+
+// Collapse after the second level
+root.children.slice(1,).forEach(collapse);
+
+update(root);
+
+// Collapse the node and all it's children
+function collapse(d) {
+  if(d.children) {
+    d._children = d.children
+    d._children.forEach(collapse)
+    d.children = null
+  }
+}
+
+function update(source) {
+
+  // Assigns the x and y position for the nodes
+  var treeData = treemap(root);
+
+  // Compute the new tree layout.
+  var nodes = treeData.descendants(),
+      links = treeData.descendants().slice(1);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d){ d.y = d.depth * 300});
+
+  // ****************** Nodes section ***************************
+
+  // Update the nodes...
+  var node = svg.selectAll('g.node')
+      .data(nodes, function(d) {return d.id || (d.id = ++i); });
+
+  // Enter any new modes at the parent's previous position.
+  var nodeEnter = node.enter().append('g')
+      .attr('class', 'node')
+      .attr("transform", function(d) {
+        return "translate(" + source.y0 + "," + source.x0 + ")";
+    })
+    .on('click', click);
+
+  // Add Circle for the nodes
+  nodeEnter.append('circle')
+      .attr('class', 'node')
+      .attr('r', 1e-6)
+      .style("fill", function(d) {
+          return d._children ? "#3dbdbe" : "#c24a65";
+      });
+
+  // Add labels for the nodes
+  nodeEnter.append('text')
+      .attr("dy", ".35em")
+      .attr("face", "Open Sans")
+      .attr("x", function(d) {
+          return d.children || d._children ? -13 : 13;
+      })
+      .attr("text-anchor", function(d) {
+          return d.children || d._children ? "end" : "start";
+      })
+      .text(function(d) { return d.data.name; });
+
+  // UPDATE
+  var nodeUpdate = nodeEnter.merge(node);
+
+  // Transition to the proper position for the node
+  nodeUpdate.transition()
+    .duration(duration)
+    .attr("transform", function(d) {
+        return "translate(" + d.y + "," + d.x + ")";
+     });
+
+  // Update the node attributes and style
+  nodeUpdate.select('circle.node')
+    .attr('r', 10)
+    .style("fill", function(d) {
+        return d._children ? "#3dbdbe" : "#c24a65";
+    })
+    .style("stroke-width", 2)
+    .style("stroke", function(d) {
+      console.log("fff", d['data']['reddit']);
+      return d['data']['reddit']? "#08f" : "#fff";
+    })
+    .attr('cursor', 'pointer');
+
+
+  // Remove any exiting nodes
+  var nodeExit = node.exit().transition()
+      .duration(duration)
+      .attr("transform", function(d) {
+          return "translate(" + source.y + "," + source.x + ")";
+      })
+      .remove();
+
+  // On exit reduce the node circles size to 0
+  nodeExit.select('circle')
+    .attr('r', 1e-6);
+
+  // On exit reduce the opacity of text labels
+  nodeExit.select('text')
+    .style('fill-opacity', 1e-6);
+
+  // ****************** links section ***************************
+
+  // Update the links...
+  var link = svg.selectAll('path.link')
+      .data(links, function(d) { return d.id; });
+
+  // Enter any new links at the parent's previous position.
+  var linkEnter = link.enter().insert('path', "g")
+      .attr("class", "link")
+      .attr('d', function(d){
+        var o = {x: source.x0, y: source.y0}
+        return diagonal(o, o)
+      });
+
+  // UPDATE
+  var linkUpdate = linkEnter.merge(link);
+
+  // Transition back to the parent element position
+  linkUpdate.transition()
+      .duration(duration)
+      .attr('d', function(d){ return diagonal(d, d.parent) });
+
+  // Remove any exiting links
+  var linkExit = link.exit().transition()
+      .duration(duration)
+      .attr('d', function(d) {
+        var o = {x: source.x, y: source.y}
+        return diagonal(o, o)
+      })
+      .remove();
+
+  // Store the old positions for transition.
+  nodes.forEach(function(d){
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+
+  // Creates a curved (diagonal) path from parent to the child nodes
+  function diagonal(s, d) {
+
+    path = `M ${s.y} ${s.x}
+            C ${(s.y + d.y) / 2} ${s.x},
+              ${(s.y + d.y) / 2} ${d.x},
+              ${d.y} ${d.x}`
+
+    return path
+  }
+
+  // Toggle children on click.
+  function click(d) {
+    if (d.children) {
+        d._children = d.children;
+        d.children = null;
+      } else {
+        d.children = d._children;
+        d._children = null;
+      }
+    update(d);
+  }
+}
+}
+mandala_svg();
+
+</script>
+</section>
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="vis">
+        <div class="my-auto">
+          <h2 class="mb-5">Issue mapping</h2>
+<h5>Articles are classified in two dimensions:<span class="text-ngi"> EU/US, social issue/technology</span></h5>
+<h5>Mapping <span class="text-ngi"> trending words with article type </span> based on no. of occurences</h5>
+<h5>Top right corner: EU articles on social issues</h5>
+<h5>Lower left corner: US articles on technology</h5><br/>
+<div class="embed-responsive iframe-custom-issue">
+    <iframe class="embed-responsive-item" src="./technorank_index.html#/Visualizations" allowfullscreen></iframe>
+</div>
+  </div>
+</section>
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="technorank">
+        <div class="my-auto">
+          <h2 class="mb-5">Charts</h2>
+        <h5>  Application to explore trending keywords by source </h5>
+<h5>Common terms: compare the trend of the keyword across sources</h5> <br/>
+    <div class="embed-responsive iframe-custom-charts">
+    <iframe class="embed-responsive-item" src="./technorank_index.html" allowfullscreen></iframe>
+    </div>
+    <!-- <div id="app"></div><script type=text/javascript src="./static/js/manifest.8b5b5d2309891354ba4d.js"></script><script type=text/javascript src="./static/js/vendor.b1bfeb7b4bc166eb1289.js"></script><script type=text/javascript src="./static/js/app.36b8eace93ea29460b09.js"></script> -->
+      </section>
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="case">
+  <div class="container text-center">
+                <h2 class="mb-5">Case study</h2>
+              <h3><span class="text-ngi">Topic clusters around online privacy</span></h3>
+      <h5></h5> <br/>
+<h4>  <p>Online privacy is a widely discussed issue within the academia.</br>
+In order to identify main reseach topics we have done a quick topic modeling excercise.</br></br> First we have web-scraped working papers related to online privacy from the perspective of
+Social Sciences: <a href="https://ssrn.com/en/"><b>SSRN</b></a>. </br></br>
+<img class="img-fluid mb-4" src="img/ssrnYears.png" alt="">
+</br>
+On this dataset we have performed document clustering using <a href="https://en.wikipedia.org/wiki/Tf%E2%80%93idf">tf-idf</a>, <a href='https://en.wikipedia.org/wiki/Multidimensional_scaling'> multidimensional scaling</a>, <a href="https://en.wikipedia.org/wiki/K-means_clustering">k-means</a> and <a href='https://github.com/bmabey/pyLDAvis'>pyLDAvis</a>.</p></h4>
+</br><h4>The preliminary results:</h4>
+
+<h4><p><b>SSRN topic clusters around online privacy</b></h4><h5></p></h5>
+</div>
+<!-- <div class="embed-responsive iframe-custom-charts">
+<iframe class="embed-responsive-item" src="./clusters.html" allowfullscreen></iframe>
+</div>
+</br></br> -->
+          <div class="embed-responsive iframe-custom-charts">
+          <iframe class="embed-responsive-item" src="./pylda.html" allowfullscreen></iframe>
+          </div>
+            </section>
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="wiki">
+        <div class="my-auto"><h2 class="mb-5">Wikipedia</h2>
+    <nav class="navbar navbar-default" id="navbar-wiki">
+  <ul class="nav nav-pills">
+    <li class="active"><a class="btn btn-link large-hashtag active" data-toggle="tab" href="#trending_wiki">#trending</a></li>
+    <li><a class="btn btn-link large-hashtag" data-toggle="tab" href="#ec_wiki">#european_commission</a></li>
+  </ul></nav><h2></h2><h2></h2>
+         <div class="tab-content">
+    <div id="trending_wiki" class="tab-pane fade in active show"><h4>Network of trending keywords (based on arXiv, SSRN and Techno Media)</h4>
+         <div class="embed-responsive iframe-custom-charts">
+
+              <iframe class="embed-responsive-item" src="./data/network/delab_keyws/index.html" allowfullscreen></iframe>
+</div><h2></h2><h2>
+
+<h4>Expanded Network of trending keywords (based on arXiv, SSRN and Techno Media)</h4>
+         <div class="embed-responsive iframe-custom-charts">
+
+              <iframe class="embed-responsive-item" src="./data/network/delab_expanded/index.html" allowfullscreen></iframe>
+</div>
+</div>
+    <div id="ec_wiki" class="tab-pane fade">
+<h4>Network around NGI related technologies</h4>
+
+         <div class="embed-responsive iframe-custom-charts">
+
+              <iframe class="embed-responsive-item" src="./data/network/tech_interactive_network/index.html" allowfullscreen></iframe>
+
+</div>
+
+<h2></h2>
+<h4>Network around NGI related social issues and values keywords</h4>
+
+<div class="embed-responsive iframe-custom-charts">
+
+              <iframe class="embed-responsive-item" src="./data/network/values_interactive_network/index.html" allowfullscreen></iframe>
+
+</div>
+      </div>
+  </section>
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="about">
+        <div class="my-auto">
+          <h2 class="mb-5">About</h2>
+          EU ENGINEROOM has received funding from the European Union's Horizon 2020 research and innovation programme under the Grant Agreement no 780643. The content of this website does not represent the opinion of the European Union, and the European Union is not responsible for any use that might be made of such content.
+          <h2></h2>
+         <img class="img-fluid mb-4" src="img/about.png" alt="">
+
+      </div>
+  </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/jquery.onscreen.js"></script>
+
+
+    <script>
+    window.counter = function() {
+        // this refers to the html element with the data-scroll-showCallback tag
+        var span = this.querySelector('span');
+        var current = parseInt(span.textContent);
+
+        span.textContent = current + 1;
+    };
+
+    document.addEventListener('DOMContentLoaded', function(){
+      var trigger = new ScrollTrigger({
+          addHeight: true
+      });
+    });
+    </script>
+<script>
+$.fn.typer = function(text, options){
+    options = $.extend({}, {
+        char: ' ',
+        delay: 1000,
+        duration: 600,
+        endless: true
+    }, options || text);
+
+    text = $.isPlainObject(text) ? options.text : text;
+
+    var elem = $(this),
+        isTag = false,
+        c = 0;
+
+    (function typetext(i) {
+        var e = ({string:1, number:1}[typeof text] ? text : text[i]) + options.char,
+            char = e.substr(c++, 1);
+
+        if( char === '<' ){ isTag = true; }
+        if( char === '>' ){ isTag = false; }
+        elem.html(e.substr(0, c));
+        if(c <= e.length){
+            if( isTag ){
+                typetext(i);
+            } else {
+                setTimeout(typetext, options.duration/10, i);
+            }
+        } else {
+            c = 0;
+            i++;
+
+            if (i === text.length) {
+                return;
+            } else if (i === text.length) {
+                i = 0;
+            }
+            setTimeout(typetext, options.delay, i);
+        }
+    })(0);
+};
+
+$('#typer').typer(['Research Opportunities, Technologies and Methods']);
+</script>
+
+  </body>
+
+</html>

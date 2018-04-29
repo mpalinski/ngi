@@ -1,0 +1,2092 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>NGI - Engineroom</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:bold,100,200,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <!-- <link href="./static/css/app.ac6d9a72ab5be865046105922fe77b0d.css" rel=stylesheet> -->
+
+    <!-- Custom styles for this template -->
+    <link href="css/demo.css" rel="stylesheet">
+    <link href="css/ngi.css" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+<!-- midnight, modern, simple, site -->
+    <link href="css/tabulator_simple_custom.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+          <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">Menu →</span>
+            <span class="d-none d-lg-block">
+              <!-- <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt=""> -->
+              <img class="img-fluid mb-4 logo-img" src="img/profile.jpg" alt="">
+            </span>
+          </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#start">Start</a>
+          </li>
+             <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#sources">Sources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#methodology">Methodology</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#topics">Topic identification</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#coocs">Topic co-occurrence</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#list">Short topic list</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#robust">Trend robustness</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#vis">Issue mapping</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#technorank">Charts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#case">Case study</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#wiki">Wikipedia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="start">
+        <div class="my-auto">
+          <h1 class="mb-0">NGI
+            <span class="text-title">ENGINEROOM</span>
+          </h1>
+          <div class="subheading mb-5">Explorations in Next Generation Internet Emerging<br />
+
+              <span class="typer" id="main" data-words="Research Opportunities, Technologies and Methods" data-colors="rgb(60, 57, 80)" data-delay="80" data-deleteDelay="500" endless="false"></span>
+              <span class="cursor" data-owner="main"></span>
+
+
+            <!-- <div id="typer"></div> -->
+<!--             <a href="mailto:name@email.com">delab@uw.edu.pl</a>
+ -->          </div>
+           <div class="subheading mb-5">
+          EU Engineroom focuses on identifying and evaluating the key enabling technologies and topics that will underpin the Next Generation Internet in 2025.
+          </div>
+<div class="subheading">Engineroom’s three key pillars: </div>
+<div class="row ">
+<!-- <p style="text-align:center;"><img class="img-fluid mb-4" src="img/pillars.jpg" alt=""></p>           -->
+            <!-- <h1 data-scrolj="toggle(.scaleDownIn, .scaleDownOut)"> -->
+        <div class="d-flex"><img class="zoom-img pillar" src="img/pillar1.jpg" alt=""></div>
+         <div class="d-flex"><img class="zoom-img pillar" src="img/pillar2.jpg" alt=""></div>
+         <div class="d-flex"><img class="zoom-img pillar" src="img/pillar3.jpg" alt=""></div>
+          </div>
+      </p>
+           <div class="subheading mb-5">
+</p></p>
+Consortium's partners: <br/><br />
+<!-- <h1 data-scroll="toggle(.scaleDownIn, .scaleDownOut)"> -->
+<div class="row">
+<div class="col-md-3"><img class="mb-4 zoom-img logo" src="img/delab.png" alt=""></div><div class="col-md-3"><img class="mb-4 zoom-img logo" src="img/nesta.png" alt=""></div><div class="col-md-3"><img class="mb-4 zoom-img logo" src="img/eurecat.png" alt=""></div>
+</div>
+<!-- </h1> -->
+      </section>
+
+  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="sources">
+        <div class="my-auto">
+          <h2 class="mb-5">Sources</h2>
+          <div class="row">
+            <div class="col-md-7">
+<div id="pieChart"></div>
+</div><div id="desc_pie" class="inline align-middle col-md-5">
+
+<h3> </h3><h4 class="display-width-custom"> </h4><h4 class="display-width-custom"> </h4>
+
+<h3>Unique terms: <span class="text-ngi" id="trans0">0</span><span class="plus-sign text-ngi">+</span></h3>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+<script>
+var format = d3.format(",d");
+function isInViewport(element) {
+  var rect = element.getBoundingClientRect();
+  var html = document.documentElement;
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <= (window.innerHeight || html.clientHeight) &&
+    rect.right <= (window.innerWidth || html.clientWidth)
+  );
+}
+var elements = document.querySelectorAll('span[id^="trans"]');
+elements = Array.prototype.slice.call(elements);
+console.log(elements.length);
+elements.forEach(function(element) {
+  window.addEventListener("scroll", isInViewportTrans0);
+});
+
+var transition_custom = function (id, number) {
+    d3.select(id)
+      .transition()
+        .duration(5000)
+        .on("start", function repeat() {
+          d3.active(this)
+              .tween("text", function() {
+                var that = d3.select(this),
+                    i = d3.interpolateNumber(that.text().replace(/,/g, ""), number);
+                return function(t) { that.text(format(i(t))); };
+              })
+            .transition()
+              // .delay(1500)
+              // .on("start", repeat);
+        });
+}
+function isInViewportTrans0 () {
+  if (isInViewport(document.getElementById("trans0"))) {
+
+    window.removeEventListener("scroll", isInViewportTrans0);
+    console.log('start transition');
+    transition_custom("#trans0", 1e6);
+    transition_custom("#trans1", 125000);
+    transition_custom("#trans2", 75*1e3);
+    }
+}
+
+    </script>
+
+
+<h3>Media articles: <span class="text-ngi" id="trans1">0</span><br />Working papers: <span class="text-ngi" id="trans2">0</span></h3>
+<h3>Analysis period: <span class="text-ngi">two years</span> and <span class="text-ngi">three months</span></h3>
+<h3><span class="text-ngi">Multiple gigabytes</span> of raw<br />and processed data</h3>
+</div>
+</div>
+<script src="d3pie.min.js"></script>
+<script>
+var pie = new d3pie("pieChart", {
+    "header": {
+        "title": {
+            "text": "Data sources",
+            // "fontSize": 30,
+            "color": '#3c3950',
+            "font": "Open Sans",
+        },
+        "subtitle": {
+            "text": "13 Media \& 2 Scientific",
+            "color": "#3c3950",
+            // "fontSize": 18,
+            "font": "Open Sans",
+        },
+        "location": "pie-center",
+        "titleSubtitlePadding": 10
+    },
+    "footer": {
+        "color": "#3c3950",
+        "fontSize": 14,
+        "font": "open sans",
+        "location": "bottom-left"
+    },
+    "size": {
+        "canvasWidth": window.innerWidth*0.55,
+        "canvasHeight": window.innerWidth*0.3,
+        "pieInnerRadius": "86%", // 86
+        "pieOuterRadius": "78%" // 78
+    },
+    "data": {
+        // "sortOrder": "value-desc",
+        "content": [
+
+            {
+                "label": "arXiv",
+                // "value": 31.5,
+                "value": 62444,
+                // "value": 86439,
+                "color": "#645D83"
+            },
+            {
+                "label": "SSRN",
+                // value: 8.8,
+                "value": 12866,
+                "color": "#AFA7E8"
+            },
+            {
+                "label": "The Register",
+                // "value": 11.9,
+                "value": 20863,
+                "color": "#143E3E"
+            },
+            {
+                "label": "Gizmodo",
+                // "value": 9.9,
+                "value": 18099,
+                "color": "#297E7E"
+            },
+            {
+                "label": "ZDNet",
+                // "value": 8.6,
+                "value": 16910,
+                "color": "#35A4A4"
+            },
+            {
+                "label": "Venturebeat",
+                // "value": 8.5,
+                "value": 16023,
+                "color": "#3dbdbe"
+            },
+            {
+                "label": "Reuters",
+                // "value": 8.5,
+                "value": 10942,
+                "color": "#3dbdbe"
+            },
+            {
+                "label": "Arstechnica",
+                // "value": 6,
+                "value": 10885,
+                "color": "#45D7D8"
+            },
+            {
+                "label": "The Guardian (Tech)",
+                // "value": 5.6,
+                "value": 10023,
+                "color": "#7DC8C9"
+            },
+            {
+                "label": "Wired",
+                // "value": 5.1,
+                "value": 9234,
+                "color": "#6dcad5"
+            },
+            {
+                "label": "Fastcompany",
+                // "value": 2.7,
+                "value": 4908,
+                "color": "#8DE2E3"
+            },
+            {
+                "label": "Techforge",
+                // "value": 2.7,
+                "value": 4477,
+                "color": "#8DE2E3"
+            },
+            {
+                "label": "IEEE Spectrum",
+                // "value": 1,
+                "value": 1852,
+                "color": "#a5ffff"
+            },
+            {
+                "label": "The Conversation",
+                // "value": 1,
+                "value": 1303,
+                "color": "#a5ffff"
+            },
+            {
+                "label": "Gigaom",
+                // "value": 0.5,
+                "value": 587,
+                "color": "#b0eaeb"
+            },
+
+        ]
+    },
+    "labels": {
+        "outer": {
+            "format": "label-percentage1",
+            "pieDistance":30,
+                "font": "Open Sans"
+        },
+        "inner": {
+            "format": "none",
+                "font": "Open Sans"
+        },
+        "mainLabel": {
+            "fontSize": 14,
+                "font": "Open Sans"
+        },
+        "percentage": {
+            "color": "#c24a65",
+            "fontSize": 14,
+            "decimalPlaces": 1,
+                "font": "Open Sans"
+        },
+        "value": {
+            "color": "#c24a65",
+            "fontSize": 14,
+                "font": "Open Sans"
+        },
+        "lines": {
+            "enabled": true,
+            "color": "#3c3950",
+                "font": "Open Sans"
+        },
+        "truncation": {
+            "enabled": true
+        }
+    },
+    "tooltips": {
+        "enabled": true,
+        "fontSize": 14,
+        "type": "placeholder",
+        "string": "{label}: {value}"
+    },
+    "effects": {
+        "pullOutSegmentOnClick": {
+            "effect": "linear",
+            "speed": 400,
+            "size": 8
+        }
+    },
+    "misc": {
+        "colors": {
+            //"segmentStroke": "#fff"
+        }
+    }
+});
+</script>
+
+   <div class="my-auto">
+     <h3><span class="text-ngi">Why ArXiv and SSRN?</span></h3>
+<h5><li>Lengthy publication process in scientific journals</li>
+<li>Broad coverage:</li></br></h5>
+
+<div class="row">
+  <div class="col-md-7 text-right">
+    <div id="wp_buttons">
+    <button class="btn btn-info btn-circle-wp" data-toggle="modal" data-target="#methoModal10">
+
+    SSRN </br> research networks
+          </button>
+          <!-- Classic Modal -->
+          <div class="modal fade" id="methoModal10" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+          <div class="modal-header">
+          <!-- <h5 class="modal-title">Modal title</h5> -->
+          <img class="img-fluid mb-4 tooltipimg-ngi" src="img/ssrnnet.png" alt="">
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+          </button>
+          </div>
+          <div class="modal-body">
+
+
+          </div>
+
+        </div>
+
+    </div>
+    </div>
+</br>
+</br>
+
+<button class="btn btn-info btn-circle-wp" data-toggle="modal" data-target="#methoModal20">
+      <!-- <div class="icon icon-danger"> -->
+        <!-- <img src='./img/crown.svg' width="80", height="80"> </br>Internet & Data Sovereignty -->
+        <!-- <span class="glyphicon glyphicon-list"></span> -->
+arXiv </br> categories
+    </button>
+    <!-- Classic Modal -->
+    <div class="modal fade" id="methoModal20" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+    <div class="modal-header">
+    <!-- <h5 class="modal-title">Modal title</h5> -->
+<h4> All e-prints within Computer Science category have been retrieved from the arXiv repository</h4>
+
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+    </button>
+    </div>
+    <div class="modal-body">
+    <!-- <div class="text-center"> -->
+    <p align="left">
+    <b>Subcategories included in the analysis</b>: </br>
+    <br />
+ cs.AI Artificial Intelligence <br />
+ cs.CL Computation and Language <br />
+ cs.CC Computational Complexity <br />
+ cs.CE Computational Engineering, Finance, and Science <br />
+ cs.CG Computational Geometry <br />
+ cs.GT Computer Science and Game Theory <br />
+ cs.CV Computer Vision and Pattern Recognition <br />
+ cs.CY Computers and Society <br />
+ cs.CR Cryptography and Security <br />
+ cs.DS Data Structures and Algorithms <br />
+ cs.DB Databases <br />
+ cs.DL Digital Libraries <br />
+ cs.DM Discrete Mathematics <br />
+ cs.DC Distributed, Parallel, and Cluster Computing <br />
+ cs.ET Emerging Technologies <br />
+ cs.FL Formal Languages and Automata Theory <br />
+ cs.GL General Literature <br />
+ cs.GR Graphics <br />
+ cs.AR Hardware Architecture <br />
+ cs.HC HumanComputer Interaction <br />
+ cs.IR Information Retrieval <br />
+ cs.IT Information Theory <br />
+ cs.LG Learning <br />
+ cs.LO Logic in Computer Science <br />
+ cs.MS Mathematical Software <br />
+ cs.MA Multiagent Systems <br />
+ cs.MM Multimedia <br />
+ cs.NI Networking and Internet Architecture <br />
+ cs.NE Neural and Evolutionary Computing <br />
+ cs.NA Numerical Analysis <br />
+ cs.OS Operating Systems <br />
+ cs.OH Other Computer Science <br />
+ cs.PF Performance <br />
+ cs.PL Programming Languages <br />
+ cs.RO Robotics <br />
+ cs.SI Social and Information Networks <br />
+ cs.SE Software Engineering <br />
+ cs.SD Sound <br />
+ cs.SC Symbolic Computation <br />
+ cs.SY Systems and Control <br />
+
+    </p>
+
+    </div>
+
+  </div>
+
+</div>
+</div>
+
+</div>
+</div>
+<!-- </div> -->
+<div class="inline align-middle col-md-5">
+  <!-- <h3> </h3><h4 class="display-width-custom"> </h4><h4 class="display-width-custom"> </h4> -->
+</br></br>
+<h4>SSRN's e-Library provides almost 800,000 research papers from 365,000 researchers across 30 disciplines</h4>
+</br></br></br></br></br></br>
+<h4>ArXiv provides open access to almost 1,500,000 e-prints mostly in STEM fields</h4>
+</h5>
+
+</div>
+
+
+<!-- <div class="col-md-7 text-right"> -->
+
+</div>
+</section>
+
+     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="methodology">
+        <div class="my-auto">
+          <h2 class="mb-5">Methodology</h2>
+
+     <p dir="ltr" id="docs-internal-guid-198b9fd3-1d84-c069-9492-012cadad4f82">
+</p>
+<h3><span class="text-ngi">Project Goal and General Idea</span></h3>
+<h6>
+<p dir="ltr">
+    <ul>
+
+<li>Major aim is to identify key technologies determining the development of Internet until 2025</li>
+<h3> </h3>
+<li>Strong focus on the relationship between technological areas and social issues</li>
+<h3> </h3>
+
+<li>Data-driven approach with heterogeneous sources of data</li>
+<h3> </h3>
+
+</p>
+</ul>
+<br/>
+</h6>
+<h3><span class="text-ngi">Trend analysis</span></h3>
+<h6>
+<p dir="ltr">
+    <h6>
+   <ul>
+   <li> Analysis based on the frequency of appearances for all unigrams and bigrams in the texts </li>
+   <h3> </h3>
+
+<!-- <li>Frequency: number of appearances of every term divided by the number of published articles (for every month and source)</li>
+<h3> </h3>
+
+<li>Weighted average in the case of online news</li>
+<h3> </h3> -->
+
+<li>Average monthly change in the analised term's frequency is calculated by OLS regressions</li>
+<h3> </h3>
+
+<li>The coefficient reveals the trending unigrams and bigrams</li>
+<h3> </h3>
+
+</p>
+</h6>
+</ul>
+   </p>
+<br/>
+<h3><span class="text-ngi"> Co-occurrence analysis</span> </h3>
+<p dir="ltr">
+    <h6>
+    <ul>
+       <li>Exploring the relationship between topics</li>
+    <h3></h3>
+    <li>Pairs of terms which are mentioned together in media articles</li>
+    <h3> </h3>
+
+<li>The number of articles containing both terms is divided by the number of articles including our previously identified keyword of interest for every media website</li>
+<h3> </h3>
+
+<!-- <li>A single index is constructed for all word pairs by weighted average (with the same weights as in the case of frequencies) </li>
+<h3> </h3> -->
+
+</p>
+<br/>
+</h6>
+
+<h3><span class="text-ngi"> Issue mapping</span> </h3>
+<p dir="ltr">
+    <h6>
+    <ul>
+
+
+<li>Articles are categorised across two dimensions: geography (EU vs US) and covered topic (social vs technological)
+</li>
+<h3> </h3>
+
+<li>Words are ranked based on their frequency in articles classified as social and non-social (technological)
+
+</li>
+<h3> </h3>
+<!-- <li>A single index is constructed for all word pairs by weighted average (with the same weights as in the case of frequencies) </li>
+<h3> </h3> -->
+
+</p>
+<br/>
+</h6>
+
+<h3><span class="text-ngi"> Wikipedia network analysis</span> </h3>
+<p dir="ltr">
+    <h6>
+    <ul>
+       <li>Matching the keywords to Wikipedia articles and parsing their text to extract hyperlinks</li>
+    <h3></h3>
+    <li>Generating the network of hyperlinks that connects the articles with one another</li>
+    <h3> </h3>
+
+<li>Using a community detection algorithm (the Louvain method) to identify clusters of nodes
+</li>
+<h3> </h3>
+</p>
+<br/>
+</h6>
+
+<h3><span class="text-ngi">Main Programming Tools</span> </h3></h5>
+
+ <ul class="list-inline list-icons">
+   <li class="list-inline-item">
+              <i class="devicons devicon-python-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicon-javascript-plain"></i>
+            </li>
+            <li class="list-inline-item">
+ <i class="devicon-d3js-plain"></i>        </li>
+   <li class="list-inline-item">
+              <i class="devicons devicon-vuejs-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicon-jquery-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicon-bootstrap-plain"></i>
+            </li>
+             </ul>
+
+             <button class="btn btn-circle heartbeat" data-toggle="modal" data-target="#methoModal">
+                     <!-- <div class="icon icon-danger"> -->
+                       <!-- <img src='./img/crown.svg' width="80", height="80"> </br>Internet & Data Sovereignty -->
+                       <!-- <span class="glyphicon glyphicon-list"></span> -->
+                        Extended </br> description
+
+                   </button>
+                   <!-- Classic Modal -->
+                   <div class="modal fade" id="methoModal" tabindex="-1" role="dialog">
+                   <div class="modal-dialog modal-read-more" role="document">
+                   <div class="modal-content modal-read-more">
+                   <div class="modal-header">
+                   <!-- <h5 class="modal-title">Modal title</h5> -->
+
+                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+                   </button>
+                   </div>
+                   <div class="modal-body">
+                   <div class="text-center">
+                     <!-- <img src='./img/crown.svg' width="80", height="80"> -->
+                     <!-- <h3>Internet & Data Sovereignty</h3> -->
+<h3> Methodology </h3>
+</div>
+<p align="justify">
+
+<!-- <b> Project goal and general idea</b> -->
+
+<!-- <ul class="fa-ul">
+
+  <li> <i class="fa-li fa fa-terminal"></i>Major aim is to identify key technologies determining the development of internet until 2025 </li>
+  <li><i class="fa-li fa fa-terminal"></i> Strong focus on the relationship between technological areas and social issues </li>
+  <li><i class="fa-li fa fa-terminal"></i> Data-driven approach with heterogeneous sources of data </li>
+
+</ul> -->
+
+
+<b> Trend analysis </b>
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-terminal"></i> Analysis based on the frequency of appearances for all unigrams and bigrams in the texts </li>
+<li><i class="fa-li fa fa-terminal"></i> Frequency: number of appearances of every term divided by the number of published articles (for every month and source) </li>
+<li><i class="fa-li fa fa-terminal"></i> This measure reveals how many times an expression has been mentioned on average per article </li>
+<li><i class="fa-li fa fa-terminal"></i> Several media sources: a representative index is calculated with weighted average</li>
+<li><i class="fa-li fa fa-terminal"></i> Average monthly change in the analised term's frequency is calculated by OLS regressions</li>
+<li><i class="fa-li fa fa-terminal"></i> The dependent variable of the estimation is the frequency index, while the number of months since the beginning of the analysed period (January 2016) is the independent variable </li>
+<li><i class="fa-li fa fa-terminal"></i> The regression coefficient (referred to as coef) shows by how much on average the analysed expression’s frequency changed with every observed month (marginal change of the frequency), revealing which keywords had the biggest monthly growth </li>
+</ul>
+
+<b> Co-occurrence analysis</b>
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-terminal"></i>Exploring the relationship between topics </li>
+<li><i class="fa-li fa fa-terminal"></i>Pairs of terms which are mentioned together in media articles </li>
+<li><i class="fa-li fa fa-terminal"></i>Most trending social issues have been selected </li>
+<li><i class="fa-li fa fa-terminal"></i>The co-occurrence analysis is calculated for pairs consisting of emerging social issues and trending uni/bigrams </li>
+<li><i class="fa-li fa fa-terminal"></i>The number of times the terms appear in articles together with a social issue is divided by the number of times the social issue is mentioned across all articles </li>
+<li><i class="fa-li fa fa-terminal"></i>A single index is constructed for all word pairs by weighted average (with the same weights as in the case of frequencies)</li>
+</ul>
+
+<b>Issue mapping</b>
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-terminal"></i>Articles are categorised across two dimensions: geography and covered topic</li>
+<li><i class="fa-li fa fa-terminal"></i>US/Europe: all articles from EU portals are classified as European, as well as  articles from US sources containing the names of EU countries or capital cities, or related adjectives (e.g. Dutch)</li>
+<li><i class="fa-li fa fa-terminal"></i>The number of times the expression occurred in EU/US articles has been calculated, and an index has been prepared based on these numbers for every emerging expression. As an example, if a unigram appeared 200 times in European articles, and 400 in American, the value of the index is 0.5. Based on these values, the unigrams and bigrams have been ranked along the EU-US dimension, in the range of 1 to 195  (as an example: in a population of 3 words with the values 0.5, 0.05, 0.1, the  ranks would be 3, 1, 2 respectively)</li>
+<li><i class="fa-li fa fa-terminal"></i>Social/Technological: the articles containing at least one of the following expressions are classified as social: {'harass', 'wage', 'democrat', 'congress', 'labour', 'nhs', 'senat', 'polit', 'privaci', 'discrimin', 'regul', 'council', 'conserv', 'freedom', 'alleg', 'propaganda', 'fake', 'sex', 'meddl', 'unemploy', 'interfer', 'washington', 'putin', 'labor', 'employ', 'republican', 'commiss', 'fraud', 'societi', 'metoo', 'polici'}</li>
+<li><i class="fa-li fa fa-terminal"></i>Again, the words are ranked based on their frequency in articles classified as social and non-social (technological) </li>
+
+
+</ul>
+</p>
+
+
+                   <p align="justify"></br>
+                   </p>
+                   </div>
+                   <div class="modal-footer">
+
+                   <button type="button" class="btn btn-info btn-link" data-dismiss="modal">Close</button>
+                   </div>
+                   </div>
+                   </div>
+                   </div>
+                   <!--  End Modal -->
+      </section>
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="topics">
+        <div class="my-auto">
+          <h2 class="mb-5">Topic identification</h2>
+
+ <div class="inline">
+<p dir="ltr">
+    <h6>
+<h4><span class="text-ngi">132</span> most trending NGI related keywords are identified</h4>
+<h5>Grouped into <span class="text-ngi">21</span> wider areas</h4>
+<h5>The size of the bubble is based on the regression coefficient</h5>
+<h5>Bigger bubble: more robust trend
+</h5>
+</h6>
+
+<style>
+
+.node {
+  cursor: pointer;
+}
+
+.node-bubbles:hover {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.node--leaf {
+  fill: #fff;
+}
+
+.label {
+  font: 16px "Open Sans", Open Sans, Arial, sans-serif;
+  text-anchor: middle;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+
+.label,
+.node--root,
+.node--leaf {
+  pointer-events: none;
+}
+
+#p0_title {
+  font-size: 2vw !important;
+}
+
+#p0_subtitle {
+  font-size: 1vw !important;
+}
+
+</style>
+<svg id="svg1" width="960" height="960"></svg>
+<script>
+function bubble_svg(){
+var svg = d3.select("#svg1"),
+    margin_bubbles = 20,
+    diameter = +svg.attr("width"),
+    g = svg.append("g").attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
+
+var color = d3.scaleLinear()
+    .domain([0, 5])
+    .range(['#b0eaeb', '#342C69'])
+    // .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
+    .interpolate(d3.interpolateHcl);
+
+var pack = d3.pack()
+    .size([diameter - margin_bubbles, diameter - margin_bubbles])
+    .padding(2);
+
+d3.json("./data/coefs.json", function(error, root) {
+  if (error) throw error;
+
+  root = d3.hierarchy(root)
+      .sum(function(d) { return d.size; })
+      .sort(function(a, b) { return b.value - a.value; });
+
+  var focus = root,
+      nodes = pack(root).descendants(),
+      view;
+
+  var circle = g.selectAll("circle")
+    .data(nodes)
+    .enter().append("circle")
+.attr("class", function(d) { return d.parent ? d.children ? "node node-bubbles" : "node node-bubbles node--leaf" : "node node-bubbles node--root"; })
+.style("fill", function(d) { return d.children ? color(d.depth) : null; })
+      .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
+
+  var text = g.selectAll("text")
+    .data(nodes)
+    .enter().append("text")
+      .attr("class", "label")
+      .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
+      .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
+      .text(function(d) { return d.data.name; });
+
+  var node = g.selectAll("circle,text");
+
+  svg
+      .style("background", '#fff')//color(-100))
+      .on("click", function() { zoom(root); });
+
+  zoomTo([root.x, root.y, root.r * 2 + margin_bubbles]);
+
+  function zoom(d) {
+    var focus0 = focus; focus = d;
+
+    var transition = d3.transition()
+        .duration(d3.event.altKey ? 7500 : 750)
+        .tween("zoom", function(d) {
+          var i = d3.interpolateZoom(view, [focus.x, focus.y, focus.r * 2 + margin_bubbles]);
+          return function(t) { zoomTo(i(t)); };
+        });
+
+    transition.selectAll("text")
+      .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
+        .style("fill-opacity", function(d) { return d.parent === focus ? 1 : 0; })
+        .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
+        .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
+  }
+
+  function zoomTo(v) {
+    var k = diameter / v[2]; view = v;
+    node.attr("transform", function(d) { return "translate(" + (d.x - v[0]) * k + "," + (d.y - v[1]) * k + ")"; });
+    circle.attr("r", function(d) { return d.r * k; });
+  }
+});
+}
+bubble_svg();
+</script>
+
+
+<button class="btn btn-circle heartbeat" data-toggle="modal" data-target="#methoModal7">
+        <!-- <div class="icon icon-danger"> -->
+          <!-- <img src='./img/crown.svg' width="80", height="80"> </br>Internet & Data Sovereignty -->
+          <!-- <span class="glyphicon glyphicon-list"></span> -->
+           Extended </br> description
+
+      </button>
+      <!-- Classic Modal -->
+      <div class="modal fade" id="methoModal7" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+      <div class="modal-content">
+      <div class="modal-header">
+      <!-- <h5 class="modal-title">Modal title</h5> -->
+
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+      </button>
+      </div>
+      <div class="modal-body">
+      <!-- <div class="text-center"> -->
+
+    <p align="center"><b> Topic filtering </b></p>
+</br>
+    Following the steps discussed in the methodologies section, the lists of unigrams and bigrams are sorted by the regression coefficient and NGI-related terms are manually selected. The process is the following:
+    <ul>
+    <li>The regression coefficients are calculated </li>
+    <li>Keywords that frequently occur during the entire analysis will have a relatively high coefficient, as the coefficient captures the average unit increase of the frequency index, not the percentage change. Therefore, the regression coefficient is adjusted by the average frequency of the term </li>
+    <li>This new coefficient (coef_norm) is used as a threshold to filter out non-relevant, but trending stopwords (all terms with greater coef_norm than 0.025 is excluded from the analysis). This limit serves for preliminary cleaning and excludes stopwords</li>
+    <li>The terms are sorted in descending order by the regression coefficient </li>
+    <li>The first 1000 unigrams and bigrams are verified in expert analysis (2000 terms) </li>
+    <li>Finally, 132 are selected for presentation </li>
+
+    <li>The raw results are available here: <a href="http://delab.owncube.com/index.php/s/pq3fXzJzfcYmfGa" target="_blank">Unigrams</a>, <a href="http://delab.owncube.com/index.php/s/mcbjRWcaiGKcp5J" target="_blank">Bigrams</a>
+
+    </li>
+    </ul>
+
+
+      </div>
+
+    </div>
+
+</div>
+</div>
+
+
+      </section>
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="coocs">
+        <div class="my-auto mandala-div">
+          <h2 class="mb-5">Topic co-occurrence</h2>
+<h5>The goal is to <span class="text-ngi"> dive deeper </span>in emerging technologies</h5>
+<h5>Relationship between <span class="text-ngi">social issues and technology</span></h5>
+<h5>These pairs frequently appear together in articles (news) or are used in comments about a topic (reddit)</h5>
+</p>
+
+<style>
+.mandala {
+    min-height: 1200px;
+}
+.mandala-div {
+    min-height: 1400px;
+}
+
+.node-mandala:hover {
+ stroke: #000;
+ stroke-width: 1.5px;
+}
+
+.node circle {
+  fill: #3dbdbe;
+  stroke: #3c3950;
+        stroke-width: 2px;
+}
+
+.node text {
+  font: 12px "Open Sans", sans-serif;
+}
+
+.node--internal circle {
+  fill: #3dbdbe;
+  stroke: #3c3950;
+        stroke-width: 2px;
+}
+
+.node--internal text {
+  text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: #555;
+  stroke-opacity: 0.4;
+  stroke-width: 1.5px;
+}
+
+</style>
+<script>
+// Set the dimensions and margins of the diagram
+function mandala_svg(d3_select_id="#svg2") {
+var margin = {top: 20, right: 90, bottom: 30, left: 120},
+    width = 1000 - margin.left - margin.right,
+    height = 1250 - margin.top - margin.bottom;
+
+// append the svg object to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select(d3_select_id)
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height - 600 + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate("
+          + margin.left + "," + margin.top + ")");
+
+var i = 0,
+    duration = 750,
+    root;
+
+// declares a tree layout and assigns the size
+var treemap = d3.tree().size([height, width]);
+
+// Assigns parent, children, height, depth
+root = d3.hierarchy(treeData, function(d) { return d.children; });
+root.x0 = height / 2;
+root.y0 = 0;
+
+// Collapse after the second level
+root.children.slice(1,).forEach(collapse);
+
+update(root);
+
+// Collapse the node and all it's children
+function collapse(d) {
+  if(d.children) {
+    d._children = d.children
+    d._children.forEach(collapse)
+    d.children = null
+  }
+}
+
+function update(source) {
+
+  // Assigns the x and y position for the nodes
+  var treeData = treemap(root);
+
+  // Compute the new tree layout.
+  var nodes = treeData.descendants(),
+      links = treeData.descendants().slice(1);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d){ d.y = d.depth * 250});
+
+  // ****************** Nodes section ***************************
+
+  // Update the nodes...
+  var node = svg.selectAll('g.node')
+      .data(nodes, function(d) {return d.id || (d.id = ++i); });
+
+  // Enter any new modes at the parent's previous position.
+  var nodeEnter = node.enter().append('g')
+      .attr('class', 'node')
+      .attr("transform", function(d) {
+        return "translate(" + source.y0 + "," + source.x0 + ")";
+    })
+    .on('click', click);
+
+  // Add Circle for the nodes
+  nodeEnter.append('circle')
+      .attr('class', 'node')
+      .attr('r', 1e-6)
+      .style("fill", function(d) {
+          return d._children ? "#3dbdbe" : "#c24a65";
+      });
+
+  // Add labels for the nodes
+  nodeEnter.append('text')
+      .attr("dy", ".35em")
+      .attr("face", "Open Sans")
+      .style("font-size", "16px")
+      .attr("x", function(d) {
+          return d.children || d._children ? -13 : 13;
+      })
+      .attr("text-anchor", function(d) {
+          return d.children || d._children ? "end" : "start";
+      })
+      .text(function(d) { return d.data.name; });
+
+  // UPDATE
+  var nodeUpdate = nodeEnter.merge(node);
+
+  // Transition to the proper position for the node
+  nodeUpdate.transition()
+    .duration(duration)
+    .attr("transform", function(d) {
+        return "translate(" + d.y + "," + d.x + ")";
+     });
+
+  // Update the node attributes and style
+  nodeUpdate.select('circle.node')
+    .attr('r', 10)
+    .style("fill", function(d) {
+        return d._children ? "#3dbdbe" : "#c24a65";
+    })
+    .style("stroke-width", function(d){
+      console.log(d["data"]["reddit"]);
+      return d["data"]["reddit"] ? 3 : 0;
+    })
+    .style("stroke", function(d) {
+        return d._children ? "#3dbdbe" : "#3dbdbe";
+    })
+    .attr('cursor', 'pointer');
+
+
+  // Remove any exiting nodes
+  var nodeExit = node.exit().transition()
+      .duration(duration)
+      .attr("transform", function(d) {
+          return "translate(" + source.y + "," + source.x + ")";
+      })
+      .remove();
+
+  // On exit reduce the node circles size to 0
+  nodeExit.select('circle')
+    .attr('r', 1e-6);
+
+  // On exit reduce the opacity of text labels
+  nodeExit.select('text')
+    .style('fill-opacity', 1e-6);
+
+  // ****************** links section ***************************
+
+  // Update the links...
+  var link = svg.selectAll('path.link')
+      .data(links, function(d) { return d.id; });
+
+  // Enter any new links at the parent's previous position.
+  var linkEnter = link.enter().insert('path', "g")
+      .attr("class", "link")
+      .attr('d', function(d){
+        var o = {x: source.x0, y: source.y0}
+        return diagonal(o, o)
+      });
+
+  // UPDATE
+  var linkUpdate = linkEnter.merge(link);
+
+  // Transition back to the parent element position
+  linkUpdate.transition()
+      .duration(duration)
+      .attr('d', function(d){ return diagonal(d, d.parent) });
+
+  // Remove any exiting links
+  var linkExit = link.exit().transition()
+      .duration(duration)
+      .attr('d', function(d) {
+        var o = {x: source.x, y: source.y}
+        return diagonal(o, o)
+      })
+      .remove();
+
+  // Store the old positions for transition.
+  nodes.forEach(function(d){
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+
+  // Creates a curved (diagonal) path from parent to the child nodes
+  function diagonal(s, d) {
+
+    path = `M ${s.y} ${s.x}
+            C ${(s.y + d.y) / 2} ${s.x},
+              ${(s.y + d.y) / 2} ${d.x},
+              ${d.y} ${d.x}`
+
+    return path
+  }
+
+  // Toggle children on click.
+  function click(d) {
+    if (d.children) {
+        d._children = d.children;
+        d.children = null;
+      } else {
+        d.children = d._children;
+        d._children = null;
+      }
+    update(d);
+  }
+}
+}
+</script>
+
+<nav class="navbar navbar-default" id="navbar-cooc">
+  <ul class="nav nav-pills">
+    <li class="active"><a class="btn btn-link large-hashtag active" data-toggle="tab" href="#cooc_news">#news</a></li>
+    <li><a class="btn btn-link large-hashtag" data-toggle="tab" href="#cooc_reddit">#reddit</a></li>
+  </ul></nav><h2></h2><h2></h2>
+         <div class="tab-content">
+    <div id="cooc_news" class="tab-pane fade in active show"><h4>News co-occurrence</h4>
+
+      <script src="./data/keys.json"></script>
+<svg id="svg2" class="horizontal-tree"></svg>
+<script>mandala_svg("#svg2");</script>
+</div>
+    <div id="cooc_reddit" class="tab-pane fade in show"><h4>Reddit co-occurrence</h4>
+
+      <script src="./data/keys_reddit.json"></script>
+<svg id="svg3" class="horizontal-tree"></svg>
+<script>mandala_svg("#svg3");</script>
+</div>
+
+</div>
+
+<button class="btn btn-circle heartbeat" data-toggle="modal" data-target="#methoModal2">
+        <!-- <div class="icon icon-danger"> -->
+          <!-- <img src='./img/crown.svg' width="80", height="80"> </br>Internet & Data Sovereignty -->
+          <!-- <span class="glyphicon glyphicon-list"></span> -->
+           Extended </br> description
+
+      </button>
+      <!-- Classic Modal -->
+      <div class="modal fade" id="methoModal2" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+      <div class="modal-content">
+      <div class="modal-header">
+      <!-- <h5 class="modal-title">Modal title</h5> -->
+
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+      </button>
+      </div>
+      <div class="modal-body">
+      <!-- <div class="text-center"> -->
+
+    <p align="center"><b>    News media </b></p>
+  </br>
+  <p align="justify">
+    <ul>
+        <li>The figure shows trending terms that frequently appear in articles with most relevant social issues</li>
+        <li>Artificial intelligence and machine learning are key elements of discussion</li>
+        <li>Work-related issues are strongly related to autonomous technologies and the gig economy</li>
+        <li>Content crisis has major links with elections, the Cambridge Analytica scandal, operations attributed to Russian actors and the responsibility of tech giants</li>
+        <li>Privacy issues are debated in the context of GDPR and online platforms</li>
+      </ul>
+</br>
+</p>
+  <p align="center">        <b>Reddit</b> </p>
+</br>
+<p align="justify">
+<ul>
+      <li>  To dive deeper,  co-occurrence is examined in Reddit comments </li>
+        <li>Reddit is an open, pseudonymous community, where emerging technology and related challenges are popular topics</li>
+        <li>Different vocabulary, more detailed discussion</li>
+        <li>The figure shows the terms that relatively more frequently appeared in Reddit comments than in news media articles</li>
+        <li>Blue outline: not trending in online news</li>
+        <li>Insight on emerging open-source programming tools (Scikitlearn-Python), hardware (Odroid) and privacy enablers (Duckduckgo)</li>
+        <li>Polarizing discussions on social issues: e.g. gig economy and serfdom, future of cryptocurrencies (Beanie Babys) </li>
+</ul>
+</p>
+
+<p align="center">
+<b>Filtering process</b>
+</p>
+<p align="justify">
+
+<ul>
+
+<li>Most relevant, trending uni/bigrams related to social issues are selected for analysis</li>
+<li>The co-occurrence is calculated for word pairs consisting of these terms and the most trending 15000 bigrams</li>
+<li>For each social issue, a separate filtering has been carried out</li>
+<li>The terms are sorted by the index described in the methodology section, and 10 most relevant are picked from the first 30 words</li>
+<li>All raw results are available (The columns represent the social issues, while rows the trending words. Columns ending with count_freq_weighted contain the index used for sorting)</li>
+<li><a href="http://delab.owncube.com/index.php/s/s9jpHN7aJJcS8bZ" target="_blank">Raw data: social issue unigrams</a> </li>
+<li><a href="http://delab.owncube.com/index.php/s/WY9469PfyL6SXQm" target="_blank">Raw data: social issue bigrams</a> </li>
+</ul>
+</p>
+      </div>
+    <!-- </div> -->
+
+</section>
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="list">
+
+  <div class="my-auto">
+    <h2 class="mb-5">Short topic list</h2>
+
+<div class="float-left">
+          <table class="table table-bordered" style="width:100%">
+        <tr>
+          <td>
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            	<div class="flipper">
+            		<div class="front">
+            			<!-- front content -->
+            <button class="btn btn-link btn-ngi-button">
+                <img src='./img/crown.svg' width="80", height="80"> </br>Internet<br />& Data Sovereignty
+            </button>
+            </div>
+                <div class="back">
+                  <!-- back content -->
+          <b> Linked keywords</b>: placeholder placeholder placeholder
+
+          <button class="btn btn-link btn-ngi-button" data-toggle="modal" data-target="#myModal_t0">
+            <div class="text-center">
+
+            <div style="font-size:2em">
+                          <i class="fas fa-book"></i>
+                        </div>
+</div>          </button>
+        </div>
+      </div>
+    </div>
+          </td>
+          <td>
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+              <div class="flipper">
+                <div class="front">
+            <button class="btn  btn-link btn-ngi-button">
+                <img src='./img/helmet.svg' width="80", height="80"> </br>A Safe, Accessible<br />& Diverse Internet
+            </button>
+          </div>
+          <div class="back">
+            <!-- back content -->
+            <p align="justify">
+            <b> Linked keywords</b>: hate speech, alt-right, extremist content, sexism, gender discrimination, #metoo, child safety, trafficking, parental control, Youtube Kids, diversity, racism, accessibility, 5G networks, care robots, voice assistants and chatbots, online safety
+            </p>
+<div class="text-center">
+  <div class="text-center">
+
+            <button class="btn btn-link btn-ngi-button2" data-toggle="modal" data-target="#myModal_t1">
+              <div class="text-center">
+
+<div style="font-size:2em">
+              <i class="fas fa-book"></i>
+            </div>
+  </div>        </div>
+</div>      </button>
+          </div>
+          </td>
+          <td>
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+              <div class="flipper">
+                <div class="front">
+            <button class="btn btn-link btn-ngi-button">
+                <img src='./img/id.svg' width="80", height="80"> </br>Online Identities<br />& Trust
+            </button>
+          </div>
+            <div class="back">
+              <!-- back content -->
+              <p align="justify">
+                <b> Linked keywords</b>: placeholder placeholder placeholder
+              </p>
+              <div class="text-center">
+
+              <button class="btn btn-link btn-ngi-button2" data-toggle="modal" data-target="#myModal_t2">
+                <div class="text-center">
+          <div style="font-size:2em">
+                              <i class="fas fa-book"></i>
+      </div>                      </div>              </button>
+                          </div>
+            </div>
+          </div>
+        </div>
+          </td>
+        </tr>
+        <tr>
+
+          <td>
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+              <div class="flipper">
+                <div class="front">
+      <button class="btn  btn-link btn-ngi-button">
+          <img src='./img/more.svg' width="80", height="80"> </br>Cybersecurity<br />& Resilience
+      </button>
+    </div>
+    <div class="back">
+      <!-- back content -->
+      <p align="justify">
+        <b> Linked keywords</b>: cybersecurity, ransomware, cyberwar, cyber threats, meltdown, nonpetya, hacking, quantum computing, encryption, critical infrastructure, autonomous weapons, killer robots, equifax
+      </p>
+      <button class="btn btn-link btn-ngi-button2" data-toggle="modal" data-target="#myModal_t3">
+
+        <div class="text-center">
+
+        <div style="font-size:2em">
+                      <i class="fas fa-book"></i>
+                    </div>
+</div>
+                  </button>
+    </div>
+  </div>
+</div>
+
+          </td>
+          <td>
+
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+              <div class="flipper">
+                <div class="front">
+          <button class="btn  btn-link btn-ngi-button">
+                <img src='./img/ai.svg' width="80", height="80"> </br>Ethical<br />AI & ML
+            </button>
+          </div>
+          <div class="back">
+            <!-- back content -->
+            <p align="justify">
+              <b> Linked keywords</b>: Machine learning, deep learning, algorithmic bias, algorithmic accountability, artificial intelligence, black box, Open AI, data lakes, transparency
+            </p>
+            <button class="btn btn-link btn-ngi-button2" data-toggle="modal" data-target="#myModal_t4">
+              <div class="text-center">
+
+              <div style="font-size:2em">
+                            <i class="fas fa-book"></i>
+                    </div>      </div>
+                        </button>
+          </div>
+        </div>
+      </div>
+
+
+          </td>
+          <td>
+
+
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+              <div class="flipper">
+                <div class="front">
+          <button class="btn  btn-link btn-ngi-button">
+          <img src='./img/journ.svg' width="80", height="80"> </br>Trustworthy<br />Online Media
+          </button>
+        </div>
+        <div class="back">
+          <!-- back content -->
+          <p align="justify">
+            <b> Linked keywords</b>: election hacking, election meddling, fake news, foreign intelligence, new media, filter bubble, echo chamber, media literacy, weaponisation of information, advertising, Cambridge Analytica, bots, fake accounts, platform economics, media platform, conspiracy theories
+          </p>
+          <button class="btn btn-link btn-ngi-button2" data-toggle="modal" data-target="#myModal_t5">
+            <div class="text-center">
+
+            <div style="font-size:2em">
+                          <i class="fas fa-book"></i>
+                        </div>
+            </div>          </button>
+        </div>
+      </div>
+    </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+
+
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+              <div class="flipper">
+                <div class="front">
+          <button class="btn  btn-link btn-ngi-button">
+            <img src='./img/cctv.svg' width="80", height="80"> </br>The Right to Opt out<br />& Self-Govern
+                  </button>
+                </div>
+                <div class="back">
+                <!-- back content -->
+                <p align="justify">
+                  <b> Linked keywords</b>: privacy, informed consent, smart cities, self-driving cars, facial recognition
+                </p>
+                <button class="btn btn-link btn-ngi-button2" data-toggle="modal" data-target="#myModal_t6">
+                  <div class="text-center">
+
+                  <div style="font-size:2em">
+                                <i class="fas fa-book"></i>
+                              </div>
+</div>                            </button>
+              </div>
+            </div>
+          </div>
+          </td>
+          <td>
+
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+              <div class="flipper">
+                <div class="front">
+          <button class="btn  btn-link btn-ngi-button">
+                  <img src='./img/protest.svg' width="80", height="80"> </br>Decentralising<br />Power
+              </button>
+            </div>
+            <div class="back">
+            <!-- back content -->
+            <p align="justify">
+              <b> Linked keywords</b>:
+            </p>
+            <button class="btn btn-link btn-ngi-button2" data-toggle="modal" data-target="#myModal_t7">
+              <div class="text-center">
+
+              <div style="font-size:2em">
+                            <i class="fas fa-book"></i>
+                          </div>
+          </div>              </button>
+          </div>
+        </div>
+      </div>
+          </td>
+          <td>
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+              <div class="flipper">
+                <div class="front">
+          <button class="btn  btn-link btn-ngi-button">
+                  <img src='./img/envir.svg' width="80", height="80"> </br>A Sustainable<br />Internet
+              </button>
+
+            </div>
+            <div class="back">
+            <!-- back content -->
+            <p align="justify">
+              <b> Linked keywords</b>:
+            </p>
+            <button class="btn btn-link btn-ngi-button2" data-toggle="modal" data-target="#myModal_t8">
+                <div class="text-center">
+                  <div style="font-size:2em">
+
+                            <i class="fas fa-book"></i>
+                          </div>
+          </div>              </button>
+          </div>
+          </div>
+          </div>
+          </td>
+        </tr>
+      </table>
+
+      <!-- Modal text -->
+      <!-- Classic Modal -->
+      <div class="modal fade" id="myModal_t0" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+      <div class="modal-content">
+      <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      </button>
+      </div>
+      <div class="modal-body">
+
+      <div class="text-center">
+        <h3>
+        <img src='./img/crown.svg' width="80", height="80"> </br>Internet<br />& Data Sovereignty
+</h3>
+        <p align="justify"> One key challenge for the internet moving forward is ensuring that the hardware and infrastructures underpinning it are sustainable and can meaningfully contribute to building a more circular economy.</br> </br> The challenges around the internet’s environmental footprint are myriad: from the extraordinary amount of energy used by data centres and emerging technologies like blockchain, to the costly mining processes behind the materials making our tech devices function. </br></br>Though there is a growing recognition of these issues, we do not yet see enough solutions - this is we think a space where Europe can start to play an important front-runner role.</p>
+      </div>
+      <p align="justify"></br>
+      </p>
+      </div>
+      <div class="modal-footer">
+
+      <button type="button" class="btn btn-info btn-link" data-dismiss="modal">Close</button>
+      </div>
+      </div>
+      </div>
+      </div>
+      <!--  End Modal -->
+
+      <!-- Classic Modal -->
+      <div class="modal fade" id="myModal_t1" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+      <div class="modal-content">
+      <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+      </button>
+      </div>
+      <div class="modal-body">
+      <div class="text-center">
+        <h3>
+        <img src='./img/helmet.svg' width="80", height="80"> </br>A Safe, Accessible<br />& Diverse Internet
+</h3>
+        <p align="justify"> One key challenge for the internet moving forward is ensuring that the hardware and infrastructures underpinning it are sustainable and can meaningfully contribute to building a more circular economy.</br> </br> The challenges around the internet’s environmental footprint are myriad: from the extraordinary amount of energy used by data centres and emerging technologies like blockchain, to the costly mining processes behind the materials making our tech devices function. </br></br>Though there is a growing recognition of these issues, we do not yet see enough solutions - this is we think a space where Europe can start to play an important front-runner role.</p>
+      </div>
+      <p align="justify"></br>
+      </p>
+      </div>
+      <div class="modal-footer">
+      <button type="button" class="btn btn-info btn-link" data-dismiss="modal">Close</button>
+      </div>
+      </div>
+      </div>
+      </div>
+      <!--  End Modal -->
+
+      <!-- Classic Modal -->
+      <div class="modal fade" id="myModal_t2" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+      <div class="modal-content">
+      <div class="modal-header">
+      <!-- <h5 class="modal-title">Modal title</h5> -->
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+      </button>
+      </div>
+      <div class="modal-body">
+      <div class="text-center">
+        <img src='./img/id.svg' width="80", height="80">
+        <h3>Online Identities & Trust</h3>
+
+        <p align="justify"> One key challenge for the internet moving forward is ensuring that the hardware and infrastructures underpinning it are sustainable and can meaningfully contribute to building a more circular economy.</br> </br> The challenges around the internet’s environmental footprint are myriad: from the extraordinary amount of energy used by data centres and emerging technologies like blockchain, to the costly mining processes behind the materials making our tech devices function. </br></br>Though there is a growing recognition of these issues, we do not yet see enough solutions - this is we think a space where Europe can start to play an important front-runner role.</p>
+      </div>
+      <p align="justify"></br>
+      </p>
+      </div>
+      <div class="modal-footer">
+      <button type="button" class="btn btn-info btn-link" data-dismiss="modal">Close</button>
+      </div>
+      </div>
+      </div>
+      </div>
+      <!--  End Modal -->
+
+      <!-- Classic Modal -->
+    <div class="modal fade" id="myModal_t3" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+    <div class="modal-content">
+    <div class="modal-header">
+      <!-- <h5 class="modal-title">Modal title</h5> -->
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+      </button>
+    </div>
+    <div class="modal-body">
+    <div class="text-center">
+        <img src='./img/more.svg' width="80", height="80">
+        <p align="justify">  One key challenge for the internet moving forward is ensuring that the hardware and infrastructures underpinning it are sustainable and can meaningfully contribute to building a more circular economy.</br> </br> The challenges around the internet’s environmental footprint are myriad: from the extraordinary amount of energy used by data centres and emerging technologies like blockchain, to the costly mining processes behind the materials making our tech devices function. </br></br>Though there is a growing recognition of these issues, we do not yet see enough solutions - this is we think a space where Europe can start to play an important front-runner role.</p>
+     </div>
+    <p align="justify"></br>
+    </p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-info btn-link" data-dismiss="modal">Close</button>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!--  End Modal -->
+    <!-- Classic Modal -->
+    <div class="modal fade" id="myModal_t4" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+    <div class="modal-content">
+    <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+    </button>
+    </div>
+    <div class="modal-body">
+    <div class="text-center">
+      <img src='./img/ai.svg' width="80", height="80">
+      <h3>Ethical AI & ML</h3>
+      <p align="justify"> One key challenge for the internet moving forward is ensuring that the hardware and infrastructures underpinning it are sustainable and can meaningfully contribute to building a more circular economy.</br> </br> The challenges around the internet’s environmental footprint are myriad: from the extraordinary amount of energy used by data centres and emerging technologies like blockchain, to the costly mining processes behind the materials making our tech devices function. </br></br>Though there is a growing recognition of these issues, we do not yet see enough solutions - this is we think a space where Europe can start to play an important front-runner role.</p>
+    </div>
+    <p align="justify"></br>
+    </p>
+    </div>
+    <div class="modal-footer">
+    <button type="button" class="btn btn-info btn-link" data-dismiss="modal">Close</button>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!--  End Modal -->
+
+              <!-- Classic Modal -->
+              <div class="modal fade" id="myModal_t5" tabindex="-1" role="dialog">
+              <div class="modal-dialog" role="document">
+              <div class="modal-content">
+              <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+              </button>
+              </div>
+              <div class="modal-body">
+              <div class="text-center">
+                <img src='./img/journ.svg' width="80", height="80">
+                <h3>Trustworthy Online Media</h3>
+
+                <p align="justify"> One key challenge for the internet moving forward is ensuring that the hardware and infrastructures underpinning it are sustainable and can meaningfully contribute to building a more circular economy.</br> </br> The challenges around the internet’s environmental footprint are myriad: from the extraordinary amount of energy used by data centres and emerging technologies like blockchain, to the costly mining processes behind the materials making our tech devices function. </br></br>Though there is a growing recognition of these issues, we do not yet see enough solutions - this is we think a space where Europe can start to play an important front-runner role.</p>
+              </div>
+              <p align="justify"></br>
+              </p>
+              </div>
+              <div class="modal-footer">
+              <button type="button" class="btn btn-info btn-link" data-dismiss="modal">Close</button>
+              </div>
+              </div>
+              </div>
+              </div>
+
+              <!-- Classic Modal -->
+              <div class="modal fade" id="myModal_t6" tabindex="-1" role="dialog">
+              <div class="modal-dialog" role="document">
+              <div class="modal-content">
+              <div class="modal-header">
+              <!-- <h5 class="modal-title">Modal title</h5> -->
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+              </button>
+              </div>
+              <div class="modal-body">
+              <div class="text-center">
+                <img src='./img/cctv.svg' width="80", height="80">
+                <h3>he Right to Opt out & Self-Govern</h3>
+
+                <p align="justify"> One key challenge for the internet moving forward is ensuring that the hardware and infrastructures underpinning it are sustainable and can meaningfully contribute to building a more circular economy.</br> </br> The challenges around the internet’s environmental footprint are myriad: from the extraordinary amount of energy used by data centres and emerging technologies like blockchain, to the costly mining processes behind the materials making our tech devices function. </br></br>Though there is a growing recognition of these issues, we do not yet see enough solutions - this is we think a space where Europe can start to play an important front-runner role.</p>
+              </div>
+              <p align="justify"></br>
+              </p>
+              </div>
+              <div class="modal-footer">
+              <button type="button" class="btn btn-info btn-link" data-dismiss="modal">Close</button>
+              </div>
+              </div>
+              </div>
+              </div>
+              <!--  End Modal -->
+
+
+          <!-- Classic Modal -->
+          <div class="modal fade" id="myModal_t7" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+          <div class="modal-content">
+          <div class="modal-header">
+          <!-- <h5 class="modal-title">Modal title</h5> -->
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+          </button>
+          </div>
+          <div class="modal-body">
+          <div class="text-center">
+            <img src='./img/protest.svg' width="80", height="80">
+            <h3></br>Decentralising<br />Power</h3>
+
+            <p align="justify"> One key challenge for the internet moving forward is ensuring that the hardware and infrastructures underpinning it are sustainable and can meaningfully contribute to building a more circular economy.</br> </br> The challenges around the internet’s environmental footprint are myriad: from the extraordinary amount of energy used by data centres and emerging technologies like blockchain, to the costly mining processes behind the materials making our tech devices function. </br></br>Though there is a growing recognition of these issues, we do not yet see enough solutions - this is we think a space where Europe can start to play an important front-runner role.</p>
+          </div>
+          <p align="justify"></br>
+          </p>
+          </div>
+          <div class="modal-footer">
+          <button type="button" class="btn btn-info btn-link" data-dismiss="modal">Close</button>
+          </div>
+          </div>
+          </div>
+          </div>
+          <!--  End Modal -->
+          <!-- Classic Modal -->
+          <div class="modal fade" id="myModal_t8" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+          <div class="modal-content">
+          <div class="modal-header">
+          <h5 class="modal-title"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+          </button>
+          </div>
+          <div class="modal-body">
+          <div class="text-center">
+            <img src='./img/envir.svg' width="80", height="80">
+            <h3></br>A Sustainable<br />Internet</h3>
+            <p align="justify"> One key challenge for the internet moving forward is ensuring that the hardware and infrastructures underpinning it are sustainable and can meaningfully contribute to building a more circular economy.</br> </br> The challenges around the internet’s environmental footprint are myriad: from the extraordinary amount of energy used by data centres and emerging technologies like blockchain, to the costly mining processes behind the materials making our tech devices function. </br></br>Though there is a growing recognition of these issues, we do not yet see enough solutions - this is we think a space where Europe can start to play an important front-runner role.</p>
+          </div>
+          <p align="justify"></br>
+          </p>
+          </div>
+          <div class="modal-footer">
+          <button type="button" class="btn btn-info btn-link" data-dismiss="modal">Close</button>
+          </div>
+          </div>
+          </div>
+          </div>
+          <!--  End Modal -->
+    <!-- End text modal -->
+
+    </div>
+  </div>
+</section>
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="robust">
+        <div class="my-auto">
+          <h2 class="mb-5">Trend robustness</h2>
+          <div id="example-table"></div>
+          <button class="btn btn-circle heartbeat" data-toggle="modal" data-target="#methoModal3">
+                  <!-- <div class="icon icon-danger"> -->
+                    <!-- <img src='./img/crown.svg' width="80", height="80"> </br>Internet & Data Sovereignty -->
+                    <!-- <span class="glyphicon glyphicon-list"></span> -->
+                     Extended </br> description
+
+                </button>
+                <!-- Classic Modal -->
+                <div class="modal fade" id="methoModal3" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                <!-- <h5 class="modal-title">Modal title</h5> -->
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+                </button>
+                </div>
+                <div class="modal-body">
+                <!-- <div class="text-center"> -->
+
+              <p align="center"><b> Trend Robustness </b></p>
+          <p align="justify">
+
+            <ul>
+            <li>100 most trending uni-grams over 27 months (01.2016-03.2018)</li>
+            <li>Additional analysis of last 3, 6 and 12 months</li>
+            <li>The table shows that trends are not linear</li>
+            <li>AI achieved the largest increase over 27 months, but has not been increasing in the last 12 months</li>
+            <li>Verification of methodology: news articles are covering future events and predictions (term 2017 is declining in the last 12 months, while 2018 has been increasing in last periods, except to previous 3 months)</li>
+
+          </ul>
+
+          </p>
+                </div>
+
+              </div>
+
+        </div>
+      </div>
+    </div>
+      </section>
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="vis">
+        <div class="my-auto">
+          <h2 class="mb-5">Issue mapping</h2>
+<h4>Articles are classified in two dimensions:<span class="text-ngi"> EU/US, social issue/technology</span></h4>
+<h5><span class="text-ngi">EU axis:</span> articles from European sources or concerning Europe</h5>
+<h5><span class="text-ngi">Social issues axis:</span> articles containing words from a pre-defined list of social topics</h5>
+<h5>Mapping <span class="text-ngi"> trending words with article type </span> based on no. of occurrences</h5>
+<h5>Top right corner: EU articles on social issues</h5>
+<h5>Bottom left corner: US articles on technology</h5><br/>
+<div class="embed-responsive iframe-custom-issue">
+    <iframe class="embed-responsive-item" src="./technorank_index.html#/Visualizations" allowfullscreen></iframe>
+
+</div>
+
+<button class="btn btn-default btn-circle heartbeat" data-toggle="modal" data-target="#methoModal6">
+        <!-- <div class="icon icon-danger"> -->
+          <!-- <img src='./img/crown.svg' width="80", height="80"> </br>Internet & Data Sovereignty -->
+          <!-- <span class="glyphicon glyphicon-list"></span> -->
+           Extended </br> description
+
+      </button>
+      <!-- Classic Modal -->
+      <div class="modal fade" id="methoModal6" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+      <div class="modal-content">
+      <div class="modal-header">
+      <!-- <h5 class="modal-title">Modal title</h5> -->
+
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+      </button>
+      </div>
+      <div class="modal-body">
+      <!-- <div class="text-center"> -->
+
+    <p align="center"><b> Issue mapping </b></p>
+<p align="justify">
+The results of the mapping excercise suggest that European sources and Europeans in general are more concerned about the social aspects of new technologies (see: the crowded diagonal line of the chart). </br></br> Nevertheless, some meaningful exceptions (outliers) might be pointed out. E.g. cluster of terms related to net neutrality issues discussed more intensively in the US media or robotic operating systems and quantum computing technologies being more popular topics in the European sources.
+
+</p>
+      </div>
+
+    </div>
+
+</div>
+</div>
+
+
+</div>
+</section>
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="technorank">
+        <div class="my-auto">
+          <h2 class="mb-5">Charts</h2>
+        <h5>  Application to explore trending keywords by source </h5>
+<h5>Common terms: compare the trend of the keyword across sources</h5> <br/>
+    <div class="embed-responsive iframe-custom-charts">
+    <iframe class="embed-responsive-item" src="./technorank_index.html" allowfullscreen></iframe>
+    </div>
+
+    <button class="btn btn-circle heartbeat" data-toggle="modal" data-target="#methoModal4">
+            <!-- <div class="icon icon-danger"> -->
+              <!-- <img src='./img/crown.svg' width="80", height="80"> </br>Internet & Data Sovereignty -->
+              <!-- <span class="glyphicon glyphicon-list"></span> -->
+               Extended </br> description
+
+          </button>
+          <!-- Classic Modal -->
+          <div class="modal fade" id="methoModal4" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+          <div class="modal-content">
+          <div class="modal-header">
+          <!-- <h5 class="modal-title">Modal title</h5> -->
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+          </button>
+          </div>
+          <div class="modal-body">
+          <!-- <div class="text-center"> -->
+
+        <p align="center"><b> Charts </b></p>
+    <p align="justify">
+
+  This section compares the trends of terms across different sources provides interesting insights. Tech journalists and scientists have different focus in their analyses, which is well reflected by such words as ai or machine learning. These more general words have a robust trend in popular news sources, with much less significant increase in academic sources. On the other hand, scientists do research on smaller sub-fields in the field of artificial intelligence, such as learning models. </br> </br>
+  The charts also show the difference in social science (SSRN) and computer science (Arxiv) research fields. As an example, the term “discriminatory” has been on a stronger trend in abstracts of working papers published in SSRN than in Arxiv.
+    </p>
+          </div>
+
+        </div>
+
+  </div>
+</div>
+
+  </div>
+    <!-- <div id="app"></div><script type=text/javascript src="./static/js/manifest.8b5b5d2309891354ba4d.js"></script><script type=text/javascript src="./static/js/vendor.b1bfeb7b4bc166eb1289.js"></script><script type=text/javascript src="./static/js/app.36b8eace93ea29460b09.js"></script> -->
+      </section>
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="case">
+  <!-- <div class="container"> -->
+  <div class="my-auto">
+
+                <h2 class="mb-5">Case study</h2>
+              <h3><span class="text-ngi">Topic clusters around online privacy</span></h3>
+      <h5></h5> <br/>
+<h5>  <p>Online privacy is a widely discussed issue within the academia.</br>
+In order to identify main research topics we have done a quick topic modeling exercise.</br></br> First we have web-scraped working papers related to online privacy from the perspective of
+Social Sciences: <a href="https://ssrn.com/en/">SSRN</a>. </br></br>
+<img class="img-fluid mb-4" src="img/ssrnYears.png" alt="" width="800">
+</br>
+On this dataset we have performed document clustering using <a href="https://en.wikipedia.org/wiki/Tf%E2%80%93idf">tf-idf</a>, <a href='https://en.wikipedia.org/wiki/Multidimensional_scaling'> multidimensional scaling</a>, <a href="https://en.wikipedia.org/wiki/K-means_clustering">k-means</a> and <a href='https://github.com/bmabey/pyLDAvis'>pyLDAvis</a>.</p></h5>
+</br><h4>The preliminary results:</h4>
+
+<h4><span class="text-ngi">SSRN topic clusters around online privacy</h4><h5></span></h5>
+<!-- <div class="embed-responsive iframe-custom-charts">
+<iframe class="embed-responsive-item" src="./clusters.html" allowfullscreen></iframe>
+</div>
+</br></br> -->
+          <div class="embed-responsive iframe-custom-charts">
+          <iframe class="embed-responsive-item" src="./pylda.html" allowfullscreen></iframe>
+        </div>
+
+
+        <button class="btn btn-circle heartbeat" data-toggle="modal" data-target="#methoModal4">
+                <!-- <div class="icon icon-danger"> -->
+                  <!-- <img src='./img/crown.svg' width="80", height="80"> </br>Internet & Data Sovereignty -->
+                  <!-- <span class="glyphicon glyphicon-list"></span> -->
+                   Extended </br> description
+
+              </button>
+              <!-- Classic Modal -->
+              <div class="modal fade" id="methoModal4" tabindex="-1" role="dialog">
+              <div class="modal-dialog" role="document">
+              <div class="modal-content">
+              <div class="modal-header">
+              <!-- <h5 class="modal-title">Modal title</h5> -->
+
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+              </button>
+              </div>
+              <div class="modal-body">
+              <!-- <div class="text-center"> -->
+
+            <p align="center"><b> Case study </b></p>
+        <p align="justify">
+Growing
+
+        </p>
+              </div>
+
+            </div>
+
+      </div>
+    </div>
+</div>
+            </section>
+
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="wiki">
+        <div class="my-auto"><h2 class="mb-5">Wikipedia</h2>
+    <nav class="navbar navbar-default" id="navbar-wiki">
+  <ul class="nav nav-pills">
+    <li class="active"><a class="btn btn-link large-hashtag active" data-toggle="tab" href="#trending_wiki">#trending</a></li>
+    <li><a class="btn btn-link large-hashtag" data-toggle="tab" href="#ec_wiki">#european_commission</a></li>
+  </ul></nav><h2></h2><h2></h2>
+         <div class="tab-content">
+    <div id="trending_wiki" class="tab-pane fade in active show"><h4>Network of trending keywords (based on arXiv, SSRN and Techno Media)</h4>
+         <div class="embed-responsive iframe-custom-charts">
+
+              <iframe class="embed-responsive-item" src="./data/network/delab_keyws/index.html" allowfullscreen></iframe>
+</div><h2></h2><h2>
+
+<h4>Expanded Network of trending keywords (based on arXiv, SSRN and Techno Media)</h4>
+         <div class="embed-responsive iframe-custom-charts">
+
+              <iframe class="embed-responsive-item" src="./data/network/delab_expanded/index.html" allowfullscreen></iframe>
+</div>
+</div>
+    <div id="ec_wiki" class="tab-pane fade">
+<h4>Network around NGI related technologies</h4>
+
+         <div class="embed-responsive iframe-custom-charts">
+
+              <iframe class="embed-responsive-item" src="./data/network/tech_interactive_network/index.html" allowfullscreen></iframe>
+
+</div>
+
+<h2></h2>
+<h4>Network around NGI related social issues and values keywords</h4>
+
+<div class="embed-responsive iframe-custom-charts">
+
+              <iframe class="embed-responsive-item" src="./data/network/values_interactive_network/index.html" allowfullscreen></iframe>
+
+</div>
+      </div>
+  </section>
+
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="about">
+        <div class="my-auto">
+          <h2 class="mb-5">About</h2>
+          EU ENGINEROOM has received funding from the European Union's Horizon 2020 research and innovation programme under the Grant Agreement no 780643. The content of this website does not represent the opinion of the European Union, and the European Union is not responsible for any use that might be made of such content.
+          <h2></h2>
+         <img class="img-fluid mb-4" src="img/about.png" alt="">
+
+      </div>
+  </div>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/jquery.onscreen.js"></script>
+
+
+    <script>
+    window.counter = function() {
+        // this refers to the html element with the data-scroll-showCallback tag
+        var span = this.querySelector('span');
+        var current = parseInt(span.textContent);
+
+        span.textContent = current + 1;
+    };
+
+    document.addEventListener('DOMContentLoaded', function(){
+      var trigger = new ScrollTrigger({
+          addHeight: true
+      });
+    });
+    </script>
+<script>
+$.fn.typer = function(text, options){
+    options = $.extend({}, {
+        char: ' ',
+        delay: 10000,
+        duration: 600,
+        endless: true
+    }, options || text);
+    text = $.isPlainObject(text) ? options.text : text;
+
+    var elem = $(this),
+        isTag = false,
+        c = 0;
+
+    (function typetext(i) {
+        var e = ({string:1, number:1}[typeof text] ? text : text[i]) + options.char,
+            char = e.substr(c++, 1);
+
+        if( char === '<' ){ isTag = true; }
+        if( char === '>' ){ isTag = false; }
+        elem.html(e.substr(0, c));
+        if(c <= e.length){
+            if( isTag ){
+                typetext(i);
+            } else {
+                setTimeout(typetext, options.duration/10, i);
+            }
+        } else {
+            c = 0;
+            i++;
+
+            if (i === text.length) {
+                return;
+            } else if (i === text.length) {
+                i = 0;
+            }
+            setTimeout(typetext, options.delay, i);
+        }
+    })(0);
+};
+
+$('#typer').typer(['Research Opportunities, Technologies and Methods']);
+</script>
+
+<script src="js/tabulator.min.js"></script>
+          <script>
+            $("#example-table").tabulator({
+    // height:500, // set height of table (in CSS or here), this enables the Virtual DOM and improves render speed dramatically (can be any valid css height value)
+    layout:"fitColumns", //fit columns to width of table (optional)
+    pagination:"local",
+  paginationSize:20,initialSort:[
+    {column:"rank", dir:"asc"},
+  ],
+    columns:[ //Define Table Columns
+        {title:"Rank", field:"rank", width:100, sorter:"number"},
+        {title:"Term", field:"name", width:400},
+        {title:"3 months", field:"three", formatter:"tickCross", sorter:"boolean",},
+        {title:"6 months", field:"six", formatter:"tickCross", sorter:"boolean",},
+        {title:"12 months", field:"twelve", formatter:"tickCross", sorter:"boolean",},
+    ],
+    // rowClick:function(e, row){ //trigger an alert message when the row is clicked
+    //     alert("Row " + row.getData().id + " Clicked!!!!");
+    // },
+});
+
+            var tabledata = [
+    // {id:1, name:"ai", three:true, six: false, twelve: true},
+    {"name":"ai","three":false,"six":false,"twelve":false,"rank":1},{"name":"2017","three":false,"six":false,"twelve":false,"rank":2},{"name":"2018","three":false,"six":true,"twelve":true,"rank":3},{"name":"uber","three":true,"six":false,"twelve":false,"rank":4},{"name":"bitcoin","three":false,"six":false,"twelve":true,"rank":5},{"name":"amazon","three":false,"six":false,"twelve":false,"rank":6},{"name":"machine","three":true,"six":false,"twelve":false,"rank":7},{"name":"cryptocurrency","three":false,"six":true,"twelve":true,"rank":8},{"name":"trump","three":true,"six":true,"twelve":false,"rank":9},{"name":"5g","three":false,"six":true,"twelve":true,"rank":10},{"name":"regulators","three":true,"six":false,"twelve":true,"rank":11},{"name":"russian","three":true,"six":false,"twelve":true,"rank":12},{"name":"blockchain","three":false,"six":true,"twelve":true,"rank":13},{"name":"political","three":true,"six":false,"twelve":false,"rank":14},{"name":"neutrality","three":false,"six":false,"twelve":true,"rank":15},{"name":"election","three":true,"six":false,"twelve":true,"rank":16},{"name":"alexa","three":false,"six":false,"twelve":true,"rank":17},{"name":"cambridge","three":true,"six":true,"twelve":true,"rank":18},{"name":"fcc","three":false,"six":false,"twelve":true,"rank":19},{"name":"net","three":false,"six":false,"twelve":true,"rank":20},{"name":"waymo","three":true,"six":false,"twelve":false,"rank":21},{"name":"analytica","three":true,"six":true,"twelve":true,"rank":22},{"name":"alleged","three":true,"six":false,"twelve":false,"rank":23},{"name":"algorithms","three":true,"six":false,"twelve":false,"rank":24},{"name":"trade","three":false,"six":true,"twelve":true,"rank":25},{"name":"workers","three":true,"six":false,"twelve":false,"rank":26},{"name":"artificial","three":false,"six":false,"twelve":false,"rank":27},{"name":"intel","three":false,"six":false,"twelve":true,"rank":28},{"name":"qualcomm","three":false,"six":true,"twelve":true,"rank":29},{"name":"fake","three":false,"six":false,"twelve":false,"rank":30},{"name":"quantum","three":false,"six":false,"twelve":true,"rank":31},{"name":"chip","three":false,"six":false,"twelve":false,"rank":32},{"name":"pai","three":false,"six":false,"twelve":false,"rank":33},{"name":"sponsored","three":false,"six":true,"twelve":true,"rank":34},{"name":"russia","three":true,"six":false,"twelve":false,"rank":35},{"name":"selfdriving","three":true,"six":true,"twelve":false,"rank":36},{"name":"equifax","three":true,"six":false,"twelve":true,"rank":37},{"name":"speakers","three":false,"six":false,"twelve":false,"rank":38},{"name":"currency","three":false,"six":false,"twelve":true,"rank":39},{"name":"processor","three":false,"six":false,"twelve":true,"rank":40},{"name":"ban","three":false,"six":false,"twelve":false,"rank":41},{"name":"x","three":false,"six":false,"twelve":true,"rank":42},{"name":"huawei","three":true,"six":true,"twelve":true,"rank":43},{"name":"mine","three":false,"six":true,"twelve":true,"rank":44},{"name":"ars","three":true,"six":false,"twelve":false,"rank":45},{"name":"exchange","three":false,"six":false,"twelve":true,"rank":46},{"name":"ico","three":false,"six":true,"twelve":true,"rank":47},{"name":"pixel","three":false,"six":false,"twelve":true,"rank":48},{"name":"echo","three":false,"six":false,"twelve":false,"rank":49},{"name":"senate","three":false,"six":false,"twelve":true,"rank":50},{"name":"society","three":false,"six":false,"twelve":false,"rank":51},{"name":"spread","three":true,"six":false,"twelve":false,"rank":52},{"name":"broadband","three":false,"six":false,"twelve":true,"rank":53},{"name":"8","three":false,"six":false,"twelve":false,"rank":54},{"name":"isps","three":false,"six":false,"twelve":false,"rank":55},{"name":"satellite","three":true,"six":true,"twelve":true,"rank":56},{"name":"sexual","three":true,"six":false,"twelve":false,"rank":57},{"name":"species","three":true,"six":true,"twelve":false,"rank":58},{"name":"gigaom","three":false,"six":false,"twelve":false,"rank":59},{"name":"recognition","three":false,"six":false,"twelve":false,"rank":60},{"name":"lawsuit","three":false,"six":true,"twelve":true,"rank":61},{"name":"harassment","three":true,"six":false,"twelve":true,"rank":62},{"name":"korea","three":false,"six":true,"twelve":false,"rank":63},{"name":"coin","three":false,"six":true,"twelve":true,"rank":64},{"name":"weapons","three":false,"six":true,"twelve":true,"rank":65},{"name":"truck","three":true,"six":false,"twelve":false,"rank":66},{"name":"2019","three":false,"six":true,"twelve":true,"rank":67},{"name":"levandowski","three":false,"six":true,"twelve":false,"rank":68},{"name":"nbn","three":false,"six":false,"twelve":false,"rank":69},{"name":"spectre","three":false,"six":true,"twelve":true,"rank":70},{"name":"nvidia","three":true,"six":true,"twelve":true,"rank":71},{"name":"gizmodo","three":true,"six":false,"twelve":false,"rank":72},{"name":"complaint","three":false,"six":false,"twelve":false,"rank":73},{"name":"kalanick","three":true,"six":true,"twelve":false,"rank":74},{"name":"tokens","three":false,"six":true,"twelve":true,"rank":75},{"name":"delete","three":true,"six":true,"twelve":true,"rank":76},{"name":"kaspersky","three":true,"six":false,"twelve":false,"rank":77},{"name":"wannacry","three":false,"six":false,"twelve":false,"rank":78},{"name":"violated","three":true,"six":true,"twelve":false,"rank":79},{"name":"homepod","three":false,"six":true,"twelve":true,"rank":80},{"name":"gdpr","three":true,"six":true,"twelve":true,"rank":81},{"name":"facial","three":false,"six":false,"twelve":true,"rank":82},{"name":"congress","three":true,"six":true,"twelve":true,"rank":83},{"name":"harm","three":false,"six":false,"twelve":false,"rank":84},{"name":"false","three":true,"six":true,"twelve":true,"rank":85},{"name":"nhs","three":false,"six":false,"twelve":false,"rank":86},{"name":"bird","three":true,"six":true,"twelve":true,"rank":87},{"name":"meltdown","three":false,"six":true,"twelve":true,"rank":88},{"name":"broadcom","three":true,"six":true,"twelve":true,"rank":89},{"name":"spokesperson","three":true,"six":false,"twelve":false,"rank":90},{"name":"qubits","three":false,"six":false,"twelve":true,"rank":91},{"name":"ransomware","three":false,"six":false,"twelve":false,"rank":92},{"name":"ethical","three":false,"six":true,"twelve":false,"rank":93},{"name":"lifecycle","three":true,"six":true,"twelve":true,"rank":94},{"name":"hate","three":true,"six":false,"twelve":false,"rank":95},{"name":"actors","three":false,"six":false,"twelve":true,"rank":96},{"name":"editor","three":false,"six":true,"twelve":true,"rank":97},{"name":"\\u2022","three":true,"six":false,"twelve":true,"rank":98},{"name":"addiction","three":false,"six":true,"twelve":true,"rank":99},{"name":"factory","three":false,"six":false,"twelve":false,"rank":100}
+];
+
+//load sample data into the table
+$("#example-table").tabulator("setData", tabledata);
+          </script>
+
+<script src="./js/typer.js"></script>
+
+  </body>
+
+</html>

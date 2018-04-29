@@ -1,0 +1,467 @@
+var treeData =
+{
+  "name": "ngi",
+  "children": [
+    {
+      "name": "machine learning",
+      "children": [        
+        {
+          "name": "monero",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "ponzi",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "sockpuppet",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "inuit",
+          "size": 1000
+        },
+        {
+          "name": "hyperparameter",
+          "size": 1000
+        },
+        {
+          "name": "algebra",
+          "size": 1000
+        },
+        {
+          "name": "scikitlearn",
+          "size": 1000
+        },
+      ]
+    },
+    {
+      "name": "privacy rules",
+      "children": [        
+        {
+          "name": "espionage",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "orwellian",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "injunction",
+          "size": 1000
+        },
+        {
+          "name": "monopolize",
+          "size": 1000
+        },
+        {
+          "name": "EULA",
+          "size": 1000
+        },
+        {
+          "name": "duopoly",
+          "size": 1000
+        },
+        {
+          "name": "unenforced",
+          "size": 1000
+        },
+        {
+          "name": "apathy",
+          "size": 1000
+        },
+      ]
+    },
+    {
+      "name": "cryptocurrency",
+      "children": [        
+        {
+          "name": "inflationary",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "BoA",
+          "size": 1000
+        },
+        {
+          "name": "dex",
+          "size": 1000
+        },
+        {
+          "name": "undervalued",
+          "size": 1000
+        },
+        {
+          "name": "shitcoin",
+          "size": 1000
+        },
+        {
+          "name": "hodl",
+          "size": 1000
+        },
+        {
+          "name": "beanie",
+          "size": 1000
+        },
+        {
+          "name": "deflation",
+          "size": 1000
+        },
+        {
+          "name": "reinvest",
+          "size": 1000
+        },
+      ]
+    },
+    {
+      "name": "smart home",
+      "children": [        
+        {
+          "name": "asimov",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "luddite",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "nonworking",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "fireplace",
+          "size": 1000
+        },
+        {
+          "name": "vera",
+          "size": 1000
+        },
+        {
+          "name": "odroid",
+          "size": 1000
+        },
+        {
+          "name": "adb",
+          "size": 1000
+        },
+        {
+          "name": "hvac",
+          "size": 1000
+        },
+        {
+          "name": "huxley",
+          "size": 1000
+        },
+      ]
+    },
+    {
+      "name": "gdpr",
+      "children": [        
+        {
+          "name": "megacorporation",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "zeroknowledge",
+          "size": 1000
+        },
+        {
+          "name": "gsuite",
+          "size": 1000
+        },
+        {
+          "name": "EULA",
+          "size": 1000
+        },
+        {
+          "name": "MiFID",
+          "size": 1000
+        },
+        {
+          "name": "ringfence",
+          "size": 1000
+        },
+        {
+          "name": "legalese",
+          "size": 1000
+        },
+      ]
+    },
+    {
+      "name": "gig economy",
+      "children": [        
+        {
+          "name": "capital",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "laborsaving",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "robocar",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "selfcheckout",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "semiprofession",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "techbro",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "globalist",
+          "size": 1000
+        },
+        {
+          "name": "medallion",
+          "size": 1000
+        },
+        {
+          "name": "profit-driven",
+          "size": 1000
+        },
+        {
+          "name": "obsolescence",
+          "size": 1000
+        },
+        {
+          "name": "reallocation",
+          "size": 1000
+        },
+        {
+          "name": "serfdom",
+          "size": 1000
+        },
+        {
+          "name": "underemployed",
+          "size": 1000
+        },
+      ]
+    },
+    {
+      "name": "personal data",
+      "children": [        
+        {
+          "name": "government",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "jaywalk",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "scientology",
+          "size": 1000
+        },
+        {
+          "name": "fb",
+          "size": 1000
+        },
+        {
+          "name": "EULA",
+          "size": 1000
+        },
+        {
+          "name": "keylogger",
+          "size": 1000
+        },
+        {
+          "name": "EHR",
+          "size": 1000
+        },
+      ]
+    },
+    {
+      "name": "gender discrimination",
+      "children": [ 
+        {
+          "name": "antifeminist",
+          "size": 1000,
+          "reddit": true
+        },       
+        {
+          "name": "bigot",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "dehumanize",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "empower",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "meritocracy",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "nonbinary",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "predisposed",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "quota",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "objectify",
+          "size": 1000
+        },
+        {
+          "name": "sexism",
+          "size": 1000
+        },
+        {
+          "name": "unqualified",
+          "size": 1000
+        },
+        {
+          "name": "unjust",
+          "size": 1000
+        }
+      ]
+    },
+    {
+      "name": "automation",
+      "children": [      
+        {
+          "name": "feudal",
+          "size": 1000
+        },
+        {
+          "name": "scarcity",
+          "size": 1000
+        },
+        {
+          "name": "greed",
+          "size": 1000
+        },
+        {
+          "name": "worthless",
+          "size": 1000
+        },
+        {
+          "name": "livable",
+          "size": 1000
+        },
+        {
+          "name": "menial",
+          "size": 1000
+        },
+        {
+          "name": "workweek",
+          "size": 1000
+        },
+      ]
+    },
+    {
+      "name": "digital currency",
+      "children": [        
+        {
+          "name": "government",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "undervalued",
+          "size": 1000
+        },
+        {
+          "name": "firstmove",
+          "size": 1000
+        },
+        {
+          "name": "blocksize",
+          "size": 1000
+        },
+        {
+          "name": "bitmain",
+          "size": 1000
+        },
+        {
+          "name": "fairer",
+          "size": 1000
+        },
+      ]
+    },
+    {
+      "name": "cyberattack",
+      "children": [        
+        {
+          "name": "antigovernment",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "antirussian",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "duckduckgo",
+          "size": 1000,
+          "reddit": true
+        },
+        {
+          "name": "bgp",
+          "size": 1000
+        },
+        {
+          "name": "reelection",
+          "size": 1000
+        },
+        {
+          "name": "kgb",
+          "size": 1000
+        },
+        {
+          "name": "alarmist",
+          "size": 1000
+        },
+        {
+          "name": "baltic",
+          "size": 1000
+        },
+        {
+          "name": "propagandist",
+          "size": 1000
+        },
+      ]
+    },
+  ]
+}
