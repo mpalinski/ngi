@@ -1,1 +1,1 @@
-Playground fo ENGINEROOM Project Website
+Playground for ENGINEROOM Project Website
