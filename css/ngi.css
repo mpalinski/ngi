@@ -486,3 +486,10 @@ a.nav-link.active {
  /* min-height: 1250px; */
  min-height: 130vh;
 }
+
+.iframe-custom-issue-case-study {
+ /* min-height: 1250px; */
+ min-height: 110vh;
+ max-width: 80vw;
+
+}
