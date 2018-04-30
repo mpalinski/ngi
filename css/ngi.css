@@ -381,12 +381,12 @@ a.nav-link.active {
   }
 }
 
-.iframe-custom-issue {
+/* .iframe-custom-issue {
   min-height: 1250px;
-}
+} */
 
 .iframe-custom-charts {
-  min-height: 900px;
+  min-height: 90vh;
 }
 
 .large-hashtag {
