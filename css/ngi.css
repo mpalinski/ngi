@@ -481,3 +481,8 @@ a.nav-link.active {
 .btn-ngi-button2:active {
   color: #3dbdbe;
 }
+
+.iframe-custom-issue {
+ /* min-height: 1250px; */
+ min-height: 130vh;
+}
